@@ -1,4 +1,4 @@
-export default function Error({ statusCode }) {
+export default function ShowError({ statusCode }) {
   return (
     <div>
       <h1>
