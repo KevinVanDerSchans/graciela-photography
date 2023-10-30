@@ -1,4 +1,3 @@
-import React from 'react';
 import { useRouter } from 'next/router';
 
 function Layout ({ children }) {
@@ -6,6 +5,10 @@ function Layout ({ children }) {
 
   if (router.pathname === '/') {
     return <h1>HELLO</h1>;
+
+  } else if (router.pathname === "/test") {
+    return <h2>test</h2>
+
   }
 
   return <div>{children}</div>
