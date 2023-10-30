@@ -1,7 +1,14 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
-}
+function Layout ({ children }) {
+  const router = useRouter();
 
-export default MyApp;
+  if (router.pathname === '/') {
+    return <h1>HELLO</h1>;
+  }
+
+  return <div>{children}</div>
+};
+
+export default Layout;
