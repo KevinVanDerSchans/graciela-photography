@@ -15,8 +15,6 @@
 
 # production
 /build
-globals.css
-/assets
 /src/scss
 
 # misc

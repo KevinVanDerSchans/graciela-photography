@@ -1,0 +1,262 @@
+.editor-styles-wrapper {
+   font-family: 'Roboto';
+}
+.wp-block-heading h1,
+.wp-block-heading h3,
+.wp-block-heading h4,
+.wp-block-heading h5,
+.wp-block-heading h6 {
+   font-family: 'Roboto';
+   margin: 0;
+}
+
+/* Block Width
+--------------------------------------------- */
+.wp-block {
+    max-width: 1024px;
+}
+
+/* Preformatted Block / Verse
+--------------------------------------------- */
+.wp-block-verse pre,
+.wp-block-preformatted pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+    border-radius: .25rem;
+}
+
+/* Separator
+--------------------------------------------- */
+.wp-block-separator {
+    clear: both;
+    margin: 30px auto;
+}
+.wp-block-separator.is-style-dots:before {
+    font-size: 32px;
+    letter-spacing: 1em;
+}
+/* List
+--------------------------------------------- */
+.block-library-list ol {
+    counter-reset: list-items;
+}
+.block-library-list ol li {
+    counter-increment: list-items;
+}
+.block-library-list  ol ol {
+    margin-top: 8pt;
+    list-style: none;
+}
+.block-library-list  ol ol li::before {
+    background-color: transparent;
+}
+.editor-styles-wrapper ol li {
+    margin-bottom: 10px !important;
+}
+.block-library-list ol li::before {
+    content: counter(list-items);
+    font-size: 0.75em;
+    justify-content: center;
+    align-items: center;
+    top: -0.1em;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    color: var(--color-contrast-high);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: var(--bullet-size);
+    height: var(--bullet-size);
+    margin-left: calc(var(--bullet-size) * -1);
+    margin-right: 4pt;
+    display: inline-flex;
+    vertical-align: middle;
+    position: relative;
+    left: calc(var(--bullet-margin-right) * -1);
+}
+
+/* Table
+--------------------------------------------- */
+.wp-block-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Latest Posts
+--------------------------------------------- */
+.block-editor .wp-block-latest-posts {
+    padding-left: 0;
+}
+.wp-block-latest-posts__list a {
+    display: inline-block;
+    position: relative;
+    color: #1258ca;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.wp-block-latest-posts__list a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    -webkit-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+    -ms-transition: -ms-transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition: transform 0.25s cubic-bezier(0.25, 0.8, 0.25, 1);
+    will-change: transform;
+}
+.wp-block-latest-posts__list a:hover::after {
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+/*  Blockquote
+--------------------------------------------- */
+.wp-block-quote,
+.wp-block-quote.is-large {
+    line-height: 1.2;
+    position: relative;
+    z-index: 2;
+    position: relative;
+    padding: 1.5rem !important;
+    border-left: solid 4pt #1258ca;
+    border-radius: 0.25rem !important;
+}
+.wp-block-quote p {
+      position: relative;
+      z-index: 3;
+      margin-bottom: 0 !important;
+      line-height: 1.5 !important;
+}
+.wp-block-quote::after {
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-radius: 0.25rem;
+      z-index: 1;
+      position: absolute;
+      background: rgba(232,239,253,.5);
+}
+.wp-block-quote__citation {
+    font-style: italic;
+    font-size: 14px;
+    opacity: .75;
+    z-index: 3;
+}
+
+/* Button
+--------------------------------------------- */
+.block-editor-rich-text__editable a {
+    color: #1258ca;
+}
+.wp-block-button__link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 20px 24px;
+}
+
+/* Categories List / Archives
+--------------------------------------------- */
+.wp-block-archives,
+.wp-block-categories__list {
+    text-align: left;
+    padding-left: 20px !important;
+}
+.wp-block-archives a,
+.wp-block-categories__list a {
+    display: inline-block;
+    position: relative;
+    color: #1258ca;
+    margin-bottom: 8px;
+    text-decoration: none; 
+}
+.wp-block-categories ul ul {
+    margin-top: 0px !important;
+}
+
+/* Staked Full Style
+--------------------------------------------- */
+.wp-block-blockgallery-stacked .blockgallery.has-fullwidth-images .blockgallery--item .is-selected::after {
+    bottom: 48px;
+}
+/* Carousel Style
+--------------------------------------------- */
+.flickity-enabled {
+    height: 100% !important;
+}
+
+/* Gallery Masonry Style
+--------------------------------------------- */
+.grid {
+    --grid-gap: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wp-block-gallery.is-cropped .blocks-gallery-item img {
+    border-radius: 0.55rem;
+}
+/* Color Settings
+--------------------------------------------- */
+.has-primary-color {
+    color: #1258ca;
+}
+.has-accent-color {
+    color: #c70a1a;
+}
+.has-success-color {
+    color: #88c559;
+}
+.has-black-color {
+    color: #1c1c21;
+}
+.has-contrast-color {
+    color: #292a2d;
+}
+.has-contrast-medium-color {
+    color: #79797c;
+}
+.has-contrast-lower-color {
+    color: #323639;
+}
+.has-white-color {
+    color: #ffffff;
+}
+
+.rich-text.block-editor-rich-text__editable.blockgallery--caption {
+    position: relative;
+    z-index: 2;
+}
+
+/* kirki */
+.mode-kirki-separator {
+    background-color: #fff;
+    margin: -12px -12px 0;
+    border-bottom: 1px solid #dcdcde;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border-left: 4px #2271b1 solid;
+    padding: 12px;
+}

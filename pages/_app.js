@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js';
-import "/style.scss";
 
+import "assets/css/style.css"
 import Home from './home';
 
 

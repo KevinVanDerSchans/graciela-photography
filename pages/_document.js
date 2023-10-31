@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Graciela Photography</title>
+        {/* <title>Graciela Photography</title>*/ }
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"></link>
       </Head>
 
