@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js';
 
 // import "assets/css/style.css"
-// import "../src/scss/style.scss";
+import "../src/scss/style.scss";
 
 
 import Home from './home';
