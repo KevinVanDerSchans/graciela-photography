@@ -18,6 +18,8 @@
 /src/scss
 /public/images
 
+*.scss
+
 # misc
 .DS_Store
 *.pem
