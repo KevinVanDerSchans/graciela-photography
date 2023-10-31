@@ -15,10 +15,9 @@
 
 # production
 /build
-/src/scss
 globals.css
 /assets
-
+/src/scss
 
 # misc
 .DS_Store
