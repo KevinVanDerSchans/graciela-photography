@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 import MenuItems from "./MenuItems";
-import Logo from "../../../public/images/logo/logo-dark.svg"
-import LogoLight from "../../../public/images/logo/logo-dark.svg";
+import Logo from "../../../public/images/logo/logo-dark.svg";
+import LogoLight from "../../../public/images/logo/logo-light.svg";
 
 const Header = (props) => {
 
