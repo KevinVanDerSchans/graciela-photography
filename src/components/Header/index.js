@@ -3,13 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 
 import MenuItems from "./MenuItems";
-import Logo from "../../../public/images/logo/temporalLogo.jpg";
-// import LogoLight from "../../../public/images/logo/temporalLogo.jpg";
+import Logo from "../../../public/images/logo/logo-dark.svg"
+import LogoLight from "../../../public/images/logo/logo-dark.svg";
 
 const Header = (props) => {
 
   const { headerClass, parentMenu, headerLogo, headerLogoLight } = props;
 
+  const [modalOpen, setModalOpen] = useState(false)
   const [darkMode, setDarkMode] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [isVisible, setIsVisible] = useState(false);
@@ -61,24 +62,23 @@ const Header = (props) => {
   return (
     <>
       <header>
-        <div className={`${headerClass ? headerClass : 'main-header js-main-header auto-hide-header full-width menu-center header--sticky'} ${isVisible ? 'show-bg' : ''}`}>
-          <div className={`main-header__layout  ${isVisible ? 'action' : 'top'}`}>
-            <div className="main-header__inner">
-              <div className="main-header__logo">
+      <div className={`${headerClass ? headerClass : 'main-header js-main-header auto-hide-header full-width menu-center header--sticky'} ${isVisible ? 'show-bg' : ''}`}>
+					<div className={`main-header__layout  ${isVisible ? 'action' : 'top'}`}>
+						<div className="main-header__inner">
+							<div className="main-header__logo">
 
-              <div className="logo-dark">
-                <Link href="/">
-                  <Image src={headerLogo ? headerLogo : Logo} alt="Logo dark theme" />
-                </Link>
-              </div>
-              {/*
-              <div className="logo-light">
-                <Link href="/">
-                  <Image src={headerLogoLight ? headerLogoLight : headerLogoLight} alt="Logo light theme" />
-                </Link>
-              </div>
-              */}
-              </div>
+								<div className="logo-dark">
+									<Link href="/">
+										<Image src={headerLogo ? headerLogo : Logo} alt="Most" />
+									</Link>
+								</div>
+
+								<div className="logo-light">
+									<Link href="/">
+										<Image src={headerLogoLight ? headerLogoLight : LogoLight} alt="Most" />
+									</Link>
+								</div>
+							</div>
 
               <nav className={`main-header__nav js-main-header__nav main-header__default ${menuOpen ? 'is_mobile main-header__nav--is-visible' : ''}`} id="main-header-nav" aria-labelledby="primary-menu">
                 <ul id="primary-menu" className="navbar-nav">

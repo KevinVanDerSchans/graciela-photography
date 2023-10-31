@@ -393,6 +393,7 @@ body, [data-theme=light] {
     -moz-osx-font-smoothing: grayscale;
   }
 }
+
 :root {
   --space-unit: 1em;
   --space-xxxxs: calc(0.125 * var(--space-unit));
@@ -583,15 +584,13 @@ body, [data-theme=light] {
   --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-/**
- * Root Media Query Variables
- */
+
 :root {
-  /* Line Height */
+
   --global--line-height-body: 2.1;
   --global--line-height-heading: 1.3;
   --global--line-height-page-title: 1.1;
-  /* Font Size */
+
   --global--font-size-base: 1.25rem;
   --global--font-size-xs: 1rem;
   --global--font-size-sm: 1.125rem;
@@ -602,15 +601,15 @@ body, [data-theme=light] {
   --global--font-size-xxxl: 5rem;
   --global--font-size-page-title: var(--global--font-size-xxl);
   --global--letter-spacing: normal;
-  /* Headings */
+
   --heading--font-size-h1: var(--global--font-size-page-title);
   --heading--font-weight: normal;
-  /* Widgets */
+
   --widget--line-height-list: 1.9;
   --widget--line-height-title: 1.4;
   --widget--font-weight-title: 700;
   --widget--spacing-menu: calc(0.66 * var(--global--spacing-unit));
-  /* Spacing */
+
   --global--spacing-width: 810px;
   --global--spacing-unit: 20px;
   --global--spacing-measure: unset;
@@ -622,7 +621,7 @@ body, [data-theme=light] {
   --responsive--alignfull-width: 100%;
   --responsive--alignright-margin: var(--global--spacing-horizontal);
   --responsive--alignleft-margin: var(--global--spacing-horizontal);
-  /* Cover block */
+
   --cover--height: calc(15 * var(--global--spacing-vertical));
   --cover--color-foreground: var(--global--color-white);
   --cover--color-background: var(--global--color-black);
@@ -674,9 +673,8 @@ body, [data-theme=light] {
     --responsive--alignwide-width: min(calc(100vw - 8 * var(--global--spacing-horizontal)), 1320px);
   }
 }
-/**
- * Extends
- */
+
+
 html {
   line-height: var(--global--line-height-body);
 }
@@ -762,10 +760,6 @@ table th,
   display: block;
 }
 
-/*
- * Block & non-gutenberg content wrapper children
- * - Sets spacing-unit margins
- */
 .entry-header > *,
 .post-thumbnail > *,
 .page-content > *,
@@ -795,12 +789,8 @@ table th,
   margin: 0 !important;
 }
 
-/* Block Alignments */
-/**
- * .alignleft
- */
 .alignleft {
-  /*rtl:ignore*/
+
   text-align: left;
   margin-top: 0;
   margin-right: var(--global--spacing-horizontal);
@@ -813,9 +803,9 @@ table th,
 
 @media only screen and (min-width: 482px) {
   .alignleft {
-    /*rtl:ignore*/
+
     float: left;
-    /*rtl:ignore*/
+
     margin-right: var(--global--spacing-horizontal);
     margin-bottom: var(--global--spacing-vertical);
   }
@@ -824,9 +814,7 @@ table th,
     max-width: calc(50% - var(--responsive--alignleft-margin));
   }
 }
-/**
- * .aligncenter
- */
+
 .aligncenter {
   clear: both;
   display: block;
@@ -836,9 +824,7 @@ table th,
   text-align: center;
 }
 
-/**
- * .alignright
- */
+
 .alignright {
   margin-top: 0;
   float: right;
@@ -852,9 +838,9 @@ table th,
 
 @media only screen and (min-width: 482px) {
   .alignright {
-    /*rtl:ignore*/
+
     float: right;
-    /*rtl:ignore*/
+
     margin-left: var(--global--spacing-horizontal);
   }
 }
@@ -863,9 +849,7 @@ table th,
   margin-top: 0;
 }
 
-/**
- * .alignwide
- */
+
 .alignwide {
   clear: both;
 }
@@ -875,9 +859,7 @@ table th,
   margin-right: auto;
 }
 
-/**
- * .alignfull
- */
+
 .alignfull {
   clear: both;
 }
@@ -967,7 +949,7 @@ table th,
   padding-right: calc(var(--bs-gutter-x) / 2) !important;
 }
 
-/* Text meant only for screen readers. */
+
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
@@ -1156,9 +1138,6 @@ table th,
   overflow: hidden;
 }
 
-/**
- * Block: Cover
- */
 .wp-block-cover__inner-container p {
   margin-top: 0;
 }
@@ -1311,7 +1290,7 @@ table th,
   border-radius: 0;
 }
 
-/* Comments */
+
 .wp-block-latest-comments {
   padding-left: 0;
 }
@@ -1624,10 +1603,7 @@ table th,
   margin-bottom: 15px;
 }
 
-/*
- * .entry-content children specific controls
- * - Adds special margin overrides for alignment utility classes
- */
+
 .entry-content > *.alignleft,
 .entry-content > *.alignright,
 .entry-content > *.alignleft:first-child + *,
@@ -2327,12 +2303,7 @@ cite a,
   margin-bottom: calc(var(--space-unit) * 0.25 * var(--text-vspace-multiplier, 1));
 }
 
-/* --------------------------------
 
-Title: List
-Descr: Custom list component
-
--------------------------------- */
 .text-component ul:not(.blocks-gallery-grid),
 .text-component ol {
   --list-v-space: 1;
@@ -3053,13 +3024,7 @@ input[type=submit] {
   padding: var(--space-xs);
 }
 
-/* --------------------------------
 
-File#: _1_btn-states
-Title: Buttons states
-Descr: Multi-state button elements
-
--------------------------------- */
 .btn-load-more .text--no-items {
   display: none;
 }
@@ -3099,9 +3064,7 @@ Descr: Multi-state button elements
   user-select: none;
 }
 
-/*--------------------------------*/
-/* Most Effect
-/*--------------------------------*/
+
 .btn-wrap .btn {
   padding: 0;
   color: var(--color-contrast-higher);
@@ -4584,13 +4547,8 @@ body[data-theme=dark] .ms-footer .btn-wrap .btn .ms-btn--circle .circle-icon .ic
   width: 100%;
 }
 
-/* --------------------------------
 
-File#: _2_flexi-header
-Title: Flexi Header
-Descr: Customizable header template
 
--------------------------------- */
 :root {
   --f-header-height: 50px;
   --f-header-logo-width: 130px;
@@ -4821,8 +4779,7 @@ html:not(.js) .f-header__nav {
   transform: translateY(0);
 }
 
-/* Navigation
---------------------------------------------- */
+
 .main-header__layout .main-header__nav {
   font-size: 1.25em;
 }
@@ -4869,8 +4826,7 @@ html:not(.js) .f-header__nav {
   transition: background-color 250ms ease;
 }
 
-/* Most Menu Style
---------------------------------------------- */
+
 .main-header__layout .main-header__default .navbar-nav > li.menu-item:first-child > a {
   padding-left: 0;
 }
@@ -5259,14 +5215,13 @@ html:not(.js) .f-header__nav {
     transform: translateY(0);
   }
 }
-/* Menu Trigger
---------------------------------------------- */
+
+
 .main-header__nav-trigger {
   display: none;
 }
 
-/* Menu Icon
---------------------------------------------- */
+
 .main-header__nav-trigger-icon {
   position: relative;
   display: block;
@@ -5494,8 +5449,7 @@ body.masonry[data-theme=light] .main-header__nav-trigger {
     display: none;
   }
 
-  /* Mobile Submenu
-  --------------------------------------------- */
+
   .main-header__layout .main-header__nav .navbar-nav .sub-menu {
     font-size: 14px;
     position: absolute;
@@ -6223,13 +6177,7 @@ body.masonry[data-theme=light] .main-header__nav-trigger {
   top: calc(var(--space-sm) + 32px);
 }
 
-/* --------------------------------
 
-File#: _1_radios-checkboxes
-Title: Radios and Checkboxes
-Descr: Custom radio and checkbox buttons
-
--------------------------------- */
 :root {
   --checkbox-radio-size: 1.2em;
   --checkbox-radio-translate-y: 0.15em;
@@ -6695,12 +6643,7 @@ legend {
   white-space: nowrap;
 }
 
-/* --------------------------------
 
-Title: Main Header
-Descr: Accessible website navigation
-
--------------------------------- */
 :root {
   --bs-gutter-x: 1.5rem;
   --mobile-gutter-header: calc(1.5/ 2);
@@ -7167,12 +7110,7 @@ body.index-two[data-theme=light] .menu-item > a {
   border: none;
 }
 
-/* --------------------------------
 
-Title: Pagination
-Descr: Component used to navigate through pages of related content
-
--------------------------------- */
 :root {
   --pagination-item-padding: var(--space-xs);
   --pagination-item-gap: var(--space-xxxs);
@@ -7837,9 +7775,8 @@ Descr: Component used to navigate through pages of related content
     display: none !important;
   }
 }
-/* --------------------------------
-Post Feed Card Style
--------------------------------- */
+
+
 .ms-posts--card {
   --bs-gutter-x: 4rem;
   --bs-gutter-y: 4rem;
@@ -10571,19 +10508,7 @@ body.index-six[data-theme=dark] .ms-main.home-six.list .ms-portfolio-filter-area
     height: 14px;
   }
 }
-/* --------------------------------
 
-File#: _1_contact
-Title: Contact
-Descr: Contact block w/ info about how to get in touch
-
--------------------------------- */
-/*!
- * justifiedGallery - v3.8.0
- * http://miromannino.github.io/Justified-Gallery/
- * Copyright (c) 2020 Miro Mannino
- * Licensed under the MIT license.
- */
 .justified-gallery {
   width: 100%;
   position: relative;
@@ -10596,7 +10521,6 @@ Descr: Contact block w/ info about how to get in touch
   position: absolute;
   display: inline-block;
   overflow: hidden;
-  /* background: #888888; To have gray placeholders while the gallery is loading with waitThumbnailsLoad = false */
   opacity: 1;
   margin: 0;
   padding: 0;
@@ -11351,7 +11275,6 @@ Descr: Contact block w/ info about how to get in touch
     overflow-x: auto;
     margin-bottom: 1.5rem;
     -ms-overflow-style: none;
-    /* for Internet Explorer, Edge */
     overflow-x: scroll;
   }
   .ms-woocommerce-product-category .product-category {
@@ -11360,7 +11283,6 @@ Descr: Contact block w/ info about how to get in touch
   }
   .ms-woocommerce-product-category::-webkit-scrollbar {
     display: none;
-    /* for Chrome, Safari, and Opera */
   }
 }
 .wrapper {
@@ -11376,7 +11298,6 @@ Descr: Contact block w/ info about how to get in touch
   width: 300px;
   border: 0;
   padding: 0;
-  /* Reset style for input range */
 }
 @media (max-width: 1300px) and (min-width: 991px) {
   .wrapper .filter-price {
@@ -11514,7 +11435,6 @@ Descr: Contact block w/ info about how to get in touch
   }
 }
 .wrapper .filter-price .price-field input[type=range]::-ms-track {
-  /* IE */
   width: 300px;
   height: 2px;
   cursor: pointer;
@@ -13123,11 +13043,6 @@ body[data-theme=dark] .woocommerce-MyAccount-navigation ul li a::after {
 }
 .ms-single-product .ms-single-product__tabs {
   margin-top: 8vh;
-  /* rating block specific to single product summary area */
-  /* rating block specific to review submit form */
-  /* rating block specific to product listing */
-  /* rating block specific to sidebar widgets */
-  /* end of review stars */
 }
 .ms-single-product .ms-single-product__tabs .wc-tabs {
   padding-left: 0;
@@ -13406,12 +13321,7 @@ body[data-theme=dark] .woocommerce-MyAccount-navigation ul li a::after {
     padding-left: 0 !important;
   }
 }
-/* --------------------------------
 
-Title: Sidebar
-Descr: Blog Sidebar style
-
--------------------------------- */
 .ms-sidebar {
   list-style: none;
   margin-bottom: var(--space-xl);
@@ -13476,8 +13386,6 @@ Descr: Blog Sidebar style
   color: var(--color-primary);
 }
 
-/* Custom Recent Posts
---------------------------------------------- */
 .ms_widget_recent_posts .recent-post {
   display: flex;
   width: 100%;
@@ -13520,8 +13428,6 @@ Descr: Blog Sidebar style
   color: var(--color-contrast-medium);
 }
 
-/* Default Recent Posts
---------------------------------------------- */
 .widget_recent_entries a,
 .wp-block-latest-posts__list a {
   color: var(--color-contrast-high);
@@ -13547,8 +13453,7 @@ Descr: Blog Sidebar style
   color: var(--color-contrast-medium);
 }
 
-/* Widget Archive
---------------------------------------------- */
+
 .widget_categories li,
 .widget_archive li {
   color: var(--color-contrast-medium);
@@ -13559,8 +13464,7 @@ Descr: Blog Sidebar style
   font-size: 16px;
 }
 
-/* Calendar
---------------------------------------------- */
+
 .ms-sidebar .widget_calendar {
   width: 100%;
 }
@@ -13681,8 +13585,6 @@ Descr: Blog Sidebar style
   border-top: solid 1px #d3d3d4;
 }
 
-/* Headlines
---------------------------------------------- */
 .text-divider {
   margin: 0 0 25px;
 }
@@ -13697,8 +13599,6 @@ Descr: Blog Sidebar style
   margin: calc(var(--space-md) * var(--text-vspace-multiplier)) auto;
 }
 
-/* Recent Comments & RSS
---------------------------------------------- */
 .wp-block-rss__item-title a {
   text-decoration: none !important;
 }
@@ -13748,8 +13648,7 @@ Descr: Blog Sidebar style
   margin: var(--space-sm) 0;
 }
 
-/* Selectbox
---------------------------------------------- */
+
 .ms-sidebar select,
 .wp-block-archives-dropdown select,
 .wp-block-categories-dropdown select {
@@ -13825,8 +13724,6 @@ Descr: Blog Sidebar style
   border-color: var(--color-primary);
 }
 
-/* Images
---------------------------------------------- */
 .ms-sidebar img {
   max-width: 100%;
   height: auto;
@@ -13841,16 +13738,14 @@ Descr: Blog Sidebar style
   color: var(--color-contrast-medium);
 }
 
-/* Text
---------------------------------------------- */
+
 .widget_text p {
   line-height: 1.8;
   font-size: initial;
   font-weight: 400;
 }
 
-/* List Style
---------------------------------------------- */
+
 .ms-sidebar ul,
 .wp-block-archives-list {
   padding-left: 0;
@@ -13876,8 +13771,7 @@ Descr: Blog Sidebar style
   margin-bottom: calc(var(--list-v-space, 1) * var(--space-xxxs));
 }
 
-/* Rss
---------------------------------------------- */
+
 .widget_rss .text-divider h5 {
   display: flex;
   align-items: center;
@@ -13919,10 +13813,7 @@ Descr: Blog Sidebar style
   margin-right: var(--space-xxxs);
 }
 
-/* Tags
---------------------------------------------- */
-/* Search
---------------------------------------------- */
+
 .ms-search-widget,
 .woocommerce.widget_product_search {
   position: relative;
@@ -14170,12 +14061,7 @@ body[data-theme=dark] .ms_theme_mode .sun-and-moon > .moon > circle {
     bottom: 0.75rem;
   }
 }
-/* --------------------------------
 
-Title: Separator
-Descr: Separator gutenberg style
-
--------------------------------- */
 .wp-block-separator:not(.is-style-dots),
 hr:not(.is-style-dots) {
   background-color: #ddd;
@@ -14203,12 +14089,6 @@ hr.is-style-dots:before {
   letter-spacing: 1em;
 }
 
-/* --------------------------------
-
-Title: Button
-Descr: Button gutenberg style
-
--------------------------------- */
 .wp-block-button .wp-block-button__link {
   font-size: 16px;
   line-height: 18px;
@@ -14309,13 +14189,6 @@ figure.wp-block-image + h5 {
   margin-bottom: 0;
 }
 
-/* --------------------------------
-
-File#: _1_avatar
-Title: Avatar
-Descr: A user profile image component.
-
--------------------------------- */
 :root {
   --avatar-sm: 1em;
   --avatar-md: 2em;
@@ -14413,12 +14286,6 @@ Descr: A user profile image component.
   font-size: 0.42em;
 }
 
-/* --------------------------------
-
-Title: Comments Style
-Descr: Design Comments
-
--------------------------------- */
 .ms-section__comments {
   width: 100%;
   max-width: var(--responsive--aligndefault-width);
@@ -16318,7 +16185,6 @@ li + .comment-respond {
 .media-wrapper video, .media-wrapper img {
   object-fit: cover;
   object-position: 50% 50%;
-  /* default value: image is centered*/
 }
 
 .media-wrapper--4\:3 {
@@ -16986,13 +16852,8 @@ li + .comment-respond {
     display: none !important;
   }
 }
-/* --------------------------------
 
-File#: _1_social-sharing
-Title: Social Sharing
-Descr: Social sharing plugin
 
--------------------------------- */
 .sharebar__btn {
   display: inline-block;
   padding: var(--space-sm);
@@ -17014,13 +16875,6 @@ Descr: Social sharing plugin
   color: var(--color-primary);
 }
 
-/* --------------------------------
-
-File#: _sticky-sharebar
-Title: Sticky Sharebar
-Descr: Sticky social sharing bar
-
--------------------------------- */
 .sticky-sharebar {
   display: flex;
   align-items: center;
@@ -17434,9 +17288,6 @@ body[data-footer-corners=on] .ms-footer {
   margin-bottom: 0;
 }
 
-/* --------------------------------
-    Experience
--------------------------------- */
 .ms_experience {
   margin-bottom: calc(var(--space-xxl) - 2.1rem);
 }
@@ -17457,9 +17308,6 @@ body[data-footer-corners=on] .ms-footer {
   border-bottom: none;
 }
 
-/* --------------------------------
-    Team
--------------------------------- */
 .ms_our-team .parent {
   margin-bottom: 0;
 }
@@ -17483,9 +17331,6 @@ body[data-footer-corners=on] .ms-footer {
   color: var(--color-primary);
 }
 
-/* --------------------------------
-    Clients logo
--------------------------------- */
 .ms_clients-gallery {
   margin-bottom: var(--space-xl);
 }
@@ -17510,9 +17355,6 @@ body[data-footer-corners=on] .ms-footer {
   width: 100%;
 }
 
-/* --------------------------------
-Clients logo
--------------------------------- */
 .ms_clients-gallery {
   margin-bottom: var(--space-xl);
 }
@@ -18125,4 +17967,3 @@ html:not(.js) .filter-nav__nav {
 .reset.filter-nav__close-btn:focus {
   outline: none;
 }
-/*# sourceMappingURL=../maps/style.css.map */
