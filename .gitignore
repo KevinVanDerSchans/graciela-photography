@@ -16,7 +16,6 @@
 # production
 /build
 /src/scss
-/public/images
 
 *.scss
 
