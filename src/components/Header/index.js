@@ -93,7 +93,7 @@ const Header = (props) => {
                   <div className="ms_tm--inner">
 
                     <div className="theme-toggle" id="theme-toggle" onClick={() => { setDarkMode(!darkMode); }}>
-                      <input type="checkbox" id="switcher" className="check" checked="" />
+                      <input type="checkbox" id="switcher" className="check" defaultChecked="" />
                         <svg className="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
                           <mask className="moon" id="moon-mask">
                             <rect x="0" y="0" width="100%" height="100%" fill="white"></rect>
