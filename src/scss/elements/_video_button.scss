@@ -1,0 +1,55 @@
+.ms-vb a {
+    display: inline-flex;
+    width: auto;
+
+    .ms-vb__icon {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color .4s cubic-bezier(0.4, 0, 0, 1);
+
+        svg {
+          margin-right: -6px;
+          transition: fill .4s cubic-bezier(0.4, 0, 0, 1);
+        }
+    }
+}
+
+.ms-vb__label {
+  display: flex;
+  align-items: center;
+}
+
+.ms-vb.ms-vb--label-bottom a {
+  flex-direction: column;
+  display: block;
+
+    .ms-vb__label {
+      margin-top: 15px;
+      display: block;
+    }
+}
+
+.ms-vb.ms-vb--label-left a {
+    flex-direction: row-reverse;
+
+    .ms-vb__label {
+      padding-right: var(--space-sm);
+    }
+}
+
+.ms-vb.ms-vb--label-right {
+  .ms-vb__label {
+    padding-left: var(--space-sm);
+  }
+}
+
+.mfp-content {
+  .mfp-close {
+      font-size: 36px;
+  }
+
+  .mfp-title {
+    margin-top: 15px;
+  }
+}

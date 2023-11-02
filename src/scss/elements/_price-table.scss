@@ -1,0 +1,172 @@
+.ms-pt-block {
+    overflow: hidden;
+
+    .currency,
+    .price {
+      font-family: "Neue Haas Grotesk Display Pro", "Open Sans", sans-serif;
+      font-size: 48px;
+      font-weight: 600;
+    }
+
+    .period {
+      color: var(--color-contrast-medium);
+    }
+
+    .ms-pt--price {
+      line-height: 1;
+    }
+
+    .ms-pt--title {
+      font-size: 28px;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+    }
+
+    li + li {
+      margin-top: var(--space-sm);
+    }
+
+    li.active {
+
+      .icon-check {
+        display: flex;
+        align-items: center;
+        flex: 0 0 auto;
+        justify-content: center;
+        margin-right: var(--space-xs);
+        max-width: 100%;
+
+          svg {
+            width: 14px;
+            height: 14px;
+            stroke: var(--color-primary);
+            stroke-width: 3pt;
+            fill: none;
+            }
+        }
+    }
+
+    li.no-active {
+        color: var(--color-contrast-medium);
+
+        .icon-check {
+          display: block;
+          display: flex;
+          flex: 0 0 auto;
+          justify-content: center;
+          margin-right: var(--space-xs);
+          max-width: 100%;
+
+            svg {
+              width: 14px;
+              height: 14px;
+              stroke: var(--color-contrast-medium);
+              stroke-width: 3pt;
+              fill: none;
+            }
+        }
+    }
+
+    .ms-pt--content {
+      display: inline-block;
+      margin-top: 30px;
+
+      ul {
+        padding-left: 0;
+      }
+    }
+
+    .ms-pt--content + .ms-pt--footer {
+      margin-top: 30px;
+    }
+
+    .ms-mp--badge {
+      display: inline-block;
+      font-size: 14px;
+
+        p {
+          line-height: 1;
+        }
+    }
+
+    .ms-pt--header.bottom {
+        .ms-pt--title {
+          margin-bottom: 8pt;
+          margin-top: 30px;
+        }
+    }
+
+    .ms-pt--header.top {
+        .ms-pt--title {
+          margin-bottom: 8pt;
+        }
+    }
+}
+
+.ms-main{
+
+    .pricing-area-2{
+        padding: 120px 0;
+        background: #7878780D;
+
+        .sub-title{
+          font-size: 16px;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+
+        .heading-title{
+          font-family: "Manrope", Sans-serif;
+          font-size: 60px;
+          font-weight: 900;
+          line-height: 64px;
+          margin-bottom: 60px;
+
+            @media(max-width:1024px){
+              font-size: 2.5em;
+              line-height: 1.4em;
+            }
+
+            @media(max-width:767px){
+              font-size: 2em;
+              line-height: 1.4em;
+            }
+        }
+
+        .pricing-inner{
+            .ms-pt-block{
+              background: #ffffff;
+              padding: 30px;
+              border-radius: 12px;
+
+                @media(max-width:991px){
+                  margin-bottom: 25px;
+                }
+
+                .ms-pt--header{
+                    .ms-pt--title{
+                      color: #262626;
+                    }
+
+                    .currency{
+                      color: #262626;
+                    }
+
+                    .price{
+                      font-size: 64px;
+                      color: #262626;
+                    }
+                }
+
+                .ms-pt--footer{
+                  .btn{
+                      border-radius: 6px;
+                  }
+                }
+            }
+        }
+    }
+}

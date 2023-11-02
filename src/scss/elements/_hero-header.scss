@@ -1,0 +1,59 @@
+.ms-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+    .hero-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+    }
+
+    .ms-hc {
+      width: 100%;
+      margin: 0 auto;
+    }
+}
+
+.hero.hero--overlay-layer.background-image span {
+  margin-bottom: var(--space-sm);
+  text-transform: capitalize;
+  color: inherit;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.ms-parallax {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.ms-parallax > .jarallax-img {
+  position: absolute;
+  object-fit: cover;
+  font-family: 'object-fit: cover;';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.ms-hero-subtitle {
+  margin-top: var(--space-sm);
+}

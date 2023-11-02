@@ -1,0 +1,335 @@
+.ms-slider {
+  overflow: hidden;
+
+    .swiper-slide {
+        display: flex;
+        height: 100%;
+        overflow: hidden;
+
+        .slide-inner {
+          width: 100%;
+
+          .ms-slider--link {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 4;
+            top: 0;
+            left: 0;
+          }
+        }
+
+        .ms-slider--img {
+           width: 100%;
+          height: 100%;
+          overflow: hidden;
+          position: relative;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              object-position: 50% 50%;
+            }
+
+            &::after {
+              content: '';
+              position: absolute;
+              width: 101%;
+              height: 100%;
+              top: 0;
+              left: -1px;
+              transition: all .3s cubic-bezier(.25,.25,.75,.75);
+            }
+        }
+
+        .ms-slider--cont {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          left: 0;
+          bottom: 0;
+          display: flex;
+          z-index: 3;
+        }
+
+        .ms-slider--overlay {
+          position: absolute;
+          z-index: 0;
+          width: calc(100% + 1pt);
+          height: 100%;
+          top: 0;
+          left: 0;
+        }
+    }
+
+    .ms-slider--nav.nav-size--md {
+
+        .ms-nav--next,
+        .ms-nav--prev {
+          width: 60px;
+          height: 60px;
+
+            .i-arrow {
+              width: 30px;
+              height: 30px;
+            }
+        }
+    }
+
+    .ms-slider--nav.nav-size--sm {
+
+        .ms-nav--next,
+        .ms-nav--prev {
+            width: 40px;
+            height: 40px;
+
+            .i-arrow {
+              width: 20px;
+              height: 20px;
+            }
+        }
+    }
+
+    .ms-nav--next,
+    .ms-nav--prev {
+      z-index: 2;
+      display: flex;
+      bottom: 1.042vw;
+      width: 80px;
+      height: 80px;
+      cursor: pointer;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+      outline: none;
+      border: solid 1px transparent;
+      background-color: rgba(0,0,0,.2);
+      transition: background-color .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+        &:hover {
+          background-color: hsla(var(--color-primary-h),var(--color-primary-s),var(--color-primary-l),.2);
+        }
+    }
+
+    .swiper-button-disabled {
+        &:hover {
+          border-color: transparent;
+        }
+    }
+
+    .ms-nav--next {
+        right: 3rem;
+
+        &:hover {
+          background-color: hsla(var(--color-primary-h),var(--color-primary-s),var(--color-primary-l),.2);
+        }
+    }
+
+    .ms-nav--prev {
+      left: 3rem;
+
+      .i-arrow {
+        transform: rotate(-180deg);
+      }
+    }
+
+    .swiper-button-disabled {
+      visibility: visible;
+      cursor: default;
+
+      .i-arrow {
+        opacity: .2;
+      }
+    }
+
+    .i-arrow {
+      width: 40px;
+      height: 40px;
+      stroke: #fff;
+      position: relative;
+      outline: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: opacity .3s cubic-bezier(.25,.25,.75,.75);
+    }
+
+    .swiper-pagination {
+      color: #fff;
+    }
+}
+
+.ms-slider[data-nav="top"] {
+    .ms-nav--next,
+    .ms-nav--prev {
+      top: 3rem;
+    }
+}
+
+.ms-slider[data-nav="center"] {
+
+    .ms-nav--prev {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .ms-nav--next {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+}
+
+.ms-slider[data-nav="bottom"] {
+    .ms-nav--next,
+    .ms-nav--prev {
+      bottom: 3rem;
+    }
+}
+
+.ms-slider--progress {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 3rem;
+    height: 80px;
+    z-index: 3;
+
+    .swiper-pagination-progressbar,
+    .swiper-pagination-progressbar-opposite {
+      position: relative;
+      width: 100%;
+      height: 1px !important;
+      margin-top: 2px;
+    }
+
+    .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+      height: 3px;
+      margin-top: -1px;
+      border-radius: 3px;
+    }
+
+    .ms-slider--count,
+    .ms-slider--count__total {
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .ms-slider--count {
+      margin-right: 16pt;
+    }
+
+    .ms-slider--count__total {
+      margin-left: 16pt;
+    }
+}
+
+.ms-slider--progress.center {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.ms-slider--progress.right {
+  right: 3rem;
+}
+
+.ms-slider--progress.left {
+  left: 3rem;
+}
+
+.ms-ticker {
+  transition-timing-function:linear;
+}
+
+@media only screen and ( max-width: 975px ) {
+  .ms-slider {
+      .ms-nav--next {
+          right: 1.5rem;
+        }
+
+        .ms-nav--prev {
+          left: 1.5rem;
+        }
+
+        .ms-nav--next,
+        .ms-nav--prev {
+          width: 60px;
+          height: 60px;
+          bottom: 2rem !important;
+
+          .i-arrow {
+            width: 30px;
+            height: 30px;
+          }
+        }
+
+        .ms-slider--progress.center {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .ms-slider--progress {
+          height: 60px;
+          bottom: 2rem;
+
+            .ms-slider--count {
+              margin: 0;
+
+              &::after {
+                content: '/';
+                margin-left: 8pt;
+              }
+            }
+
+            .swiper-pagination-progressbar {
+              display: none;
+            }
+
+            .ms-slider--count__total {
+              margin-left: 8pt;
+            }
+        }
+    }
+}
+
+.fullpage-carousel {
+    height: 100%;
+    max-height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    .ms-slider {
+      height: calc(100vh - 1px) !important;
+      padding: var(--main-header-height-md) 0;
+    }
+}
+
+.ms-slider--cont {
+
+  .btn-wrap {
+    margin-top: 1rem;
+
+    .btn {
+        &:hover {
+            color: var(--color-primary);
+
+            .ms-btn--circle {
+                .circle-outline {
+                  stroke: var(--color-primary);
+                }
+
+                .circle-fill {
+                  background-color: var(--color-primary);
+                }
+            }
+        }
+    }
+  }
+}
+
+.ms-slider--video iframe {
+  max-width: unset !important;
+}

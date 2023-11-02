@@ -1,0 +1,60 @@
+.ms_skill_bar .skill-title,
+.ms_skill_bar .skill-bar {
+  width: 100%;
+  position: relative;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill-title {
+  margin: 0 auto var(--space-sm);
+  line-height: .8;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      font-size: 16px;
+      text-align: right;
+      transition: width 1s cubic-bezier(1, 0, .5, 1);
+  }
+}
+
+.skill-bar {
+  width: 0;
+  height: 4px;
+  border-radius: 8pt;
+  background: hsla(var(--color-primary-h),var(--color-primary-s),var(--color-primary-l),.15);
+  transition: 1s cubic-bezier(1, 0, .5, 1);
+}
+
+.ms_skill_bar.active-bar .skill-bar {
+  width: 100%;
+}
+
+.ms_skill_bar .skill-bar span {
+  float: left;
+  width: 0%;
+  background: var(--color-primary);
+  height: calc(100% + 2px);
+  border-radius: 8pt;
+  position: absolute;
+  bottom: 0;
+  transition: 1s cubic-bezier(1, 0, .5, 1);
+}
+
+.ms_skill_bar .skill-bar span b {
+  float: right;
+  width: 100%;
+  position: relative;
+  text-align: right;
+  opacity: 0;
+  color: rgba(15, 191, 230, 1);
+  font-weight: 400;
+  font-size: 16px;
+  top: -24pt;
+}

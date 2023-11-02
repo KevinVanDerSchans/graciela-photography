@@ -1,0 +1,136 @@
+.wp-block-separator,
+hr {
+
+	&:not(.is-style-dots) {
+		background-color: #ddd;
+		border: 0;
+		height: 1px;
+	}
+
+	&:not(.is-style-wide):not(.is-style-dots) {
+		width: 100%;
+		height: 2px;
+		background: transparent;
+
+		&::before {
+			content: '';
+			display: block;
+			height: 4px;
+			max-width: 100px;
+			background: #8f98a1;
+			margin: 0 auto;
+		}
+	}
+
+	&.is-style-dots:before {
+		font-size: 32px;
+		letter-spacing: 1em;
+	}
+}
+
+
+.wp-block-button {
+
+	.wp-block-button__link {
+		font-size: 16px;
+		line-height: 18px;
+		padding: 20px 24px;
+    transition: filter 250ms ease;
+
+		&:hover {
+			text-decoration: none;
+      filter: brightness(120%);
+		}
+	}
+}
+
+.blockgallery--item::before {
+  content: none !important;
+}
+
+.wp-block-button__link.has-success-background-color {
+  background-color: #88c559;
+}
+
+.has-success-color p,
+.has-success-color cite,
+.wp-block-button__link.has-success-color {
+  color: #88c559;
+}
+
+
+.wp-block-button__link.has-primary-background-color {
+  background-color: #1258ca;
+}
+
+.has-primary-color p,
+.has-primary-color cite,
+.wp-block-button__link.has-primary-color {
+  color: #1258ca;
+}
+
+.wp-block-button__link.has-accent-background-color {
+  background-color: #c70a1a;
+}
+
+.has-accent-color p,
+.has-accent-color cite,
+.wp-block-button__link.has-accent-color {
+  color: #c70a1a;
+}
+
+.wp-block-button__link.has-black-background-color {
+  background-color: #1c1c21;
+}
+
+.has-black-color p,
+.has-black-color cite,
+.wp-block-button__link.has-black-color {
+  color: #1c1c21;
+}
+
+.wp-block-button__link.has-contrast-background-color {
+  background-color: #292a2d;
+}
+
+.has-contrast-color p,
+.has-contrast-color cite,
+.wp-block-button__link.has-contrast-color {
+  color: #292a2d;
+}
+
+.wp-block-button__link.has-contrast-lower-background-color {
+  background-color: #323639;
+}
+
+.has-contrast-lower-color p,
+.has-contrast-lower-color cite,
+.wp-block-button__link.has-contrast-lower-color {
+  color: #323639;
+}
+
+
+.wp-block-button__link.has-white-background-color {
+  background-color: #ffffff;
+}
+
+.has-white-color p,
+.has-white-color cite,
+.wp-block-button__link.has-white-color {
+  color: #ffffff;
+}
+
+.mejs-container {
+  margin-bottom: calc(var(--space-md) * var(--text-vspace-multiplier));
+}
+
+.mejs-container,
+.mejs-container .mejs-controls {
+  background: var(--plyr-audio-control-color,#4a5464) !important;
+  border-radius: 4px;
+}
+
+figure.wp-block-image + h4,
+figure.wp-block-image + h5 {
+  margin-bottom: 0;
+}

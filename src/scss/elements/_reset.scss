@@ -35,6 +35,21 @@ body {
   background-color: var(--color-bg, white);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #302f2f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main, form legend {
   display: block;

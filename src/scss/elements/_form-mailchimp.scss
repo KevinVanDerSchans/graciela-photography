@@ -1,0 +1,89 @@
+.ms-mc4wp--wrap {
+  border-radius: 6pt;
+  background-color: transparent;
+
+  h2 {
+    margin-bottom: calc(var(--space-unit) * 0.25 * var(--text-vspace-multiplier,1));
+  }
+
+  p {
+    line-height: 28px;
+  }
+
+  .ms-mc4wp--action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+.ms-mc4wp--ac {
+  display: flex;
+  width: 100%;
+  position: relative;
+
+    .form-control {
+      margin-right: 0px;
+      padding-right: 135px;
+    }
+
+      input[type=submit] {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        bottom: 2px;
+        height: calc(100% - 4px);
+        font-size: 16px;
+        border: none;
+        color: var(--color-white);
+        background-color: var(--color-primary);
+      }
+    }
+  }
+}
+
+.ms-sidebar {
+  .ms-mc4wp--wrap {
+    padding: var(--space-md);
+    background-color: var(--color-contrast-lower);
+
+    .ms-mc4wp--ac {
+      flex-direction: column;
+
+        .form-control {
+          border-radius: 6pt;
+          margin-bottom: var(--space-sm);
+          padding-right: 115px;
+        }
+
+        .btn {
+          border-radius: 6pt;
+          color: var(--color-white);
+        }
+
+        input[type=submit] {
+          background-color: transparent;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: 9;
+          margin-left: 0;
+          height: 42px;
+        }
+    }
+
+    .ms-mc4wp--content {
+      width: 100%;
+
+      h2 {
+        margin-bottom: var(--space-xs);
+      }
+
+      p {
+        margin-bottom: var(--space-md);
+      }
+    }
+
+    .ms-mc4wp--action {
+      width: 100%;
+    }
+  }
+}

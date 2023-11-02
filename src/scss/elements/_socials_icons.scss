@@ -1,0 +1,319 @@
+.ms-s-i {
+  display: inline-flex;
+
+    i {
+      will-change: transform;
+      transform: translateZ(0);
+      backface-visibility: hidden;
+      transition: transform 320ms cubic-bezier(.575,.015,0,.995);
+    }
+
+    &:hover i {
+      transform: translateY(-4px);
+    }
+}
+
+.ms-s-i.mono i {
+  color: var(--color-contrast-higher);
+}
+
+.ms-s-i.s-it span {
+  text-transform: capitalize;
+  font-family: 'Neue Haas Grotesk Display Pro'!important;
+}
+
+.ms-s-i.s-it i {
+  display: flex;
+
+  &::before {
+    margin-right: 6px;
+  }
+}
+
+.ms-s-i.s-text i {
+  text-transform: capitalize;
+  font-size: 18px;
+
+  span {
+    font-family: 'Neue Haas Grotesk Display Pro'!important;
+  }
+
+  &::before {
+    content: none;
+  }
+}
+
+.ms-s-i i {
+    font-size: 22px;
+}
+
+.ms-s-i.small {
+  font-size: 18px;
+    i {
+      font-size: 18px;
+    }
+}
+
+.ms-s-i.medium {
+  font-size: 22px;
+
+  i {
+    font-size: 22px;
+  }
+}
+
+.ms-s-i.large {
+  font-size: 28px;
+
+  i {
+    font-size: 28px;
+  }
+}
+
+.ms-s-i + .ms-s-i {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.ms-s-i.large + .ms-s-i.large {
+  margin-left: 18px;
+}
+
+.socicon-facebook {
+  color: #3b5999;
+}
+
+.socicon-messenger {
+  color: #0084ff;
+}
+
+.socicon-twitter {
+  color: #55acee;
+}
+
+.socicon-linkedin {
+  color: #0077B5;
+}
+
+.socicon-skype {
+  color: #00AFF0;
+}
+
+.socicon-dropbox {
+  color: #007ee5;
+}
+
+.socicon-wordpress {
+  color: #21759b;
+}
+
+.socicon-vimeo {
+  color: #1ab7ea;
+}
+
+.socicon-slideshare {
+  color: #0077b5;
+}
+
+.socicon-vkontakte {
+  color: #4c75a3;
+}
+
+.socicon-tumblr {
+  color: #34465d;
+}
+
+.socicon-yahoo {
+  color: #410093;
+}
+
+.socicon-googleplus {
+  color: #dd4b39;
+}
+
+.socicon-pinterest {
+  color: #bd081c;
+}
+
+.socicon-youtube {
+  color: #cd201f
+}
+
+.socicon-stumbleupon {
+  color: #eb4924;
+}
+
+.socicon-reddit {
+  color: #ff5700;
+}
+
+.socicon-quora {
+  color: #b92b27;
+}
+
+.socicon-yelp {
+  color: #af0606;
+}
+
+.socicon-weibo {
+  color: #df2029;
+}
+
+.socicon-producthunt {
+  color: #da552f;
+}
+
+.socicon-hackernews {
+  color: #ff6600;
+}
+
+.socicon-soundcloud {
+  color: #ff3300;
+}
+
+.socicon-blogger {
+  color: #f57d00;
+}
+
+.socicon-whatsapp {
+  color: #25D366;
+}
+
+.socicon-wechat {
+  color: #09b83e;
+}
+.socicon-line {
+  color: #00c300;
+}
+
+.socicon-medium {
+  color: #02b875;
+}
+
+.socicon-vine {
+  color: #00b489;
+}
+
+.socicon-slack {
+  color: #3aaf85;
+}
+
+.socicon-instagram {
+  color: #833ab4;
+}
+
+.socicon-dribbble {
+  color: #ea4c89;
+}
+
+.socicon-flickr {
+  color: #ff0084;
+}
+
+.socicon-foursquare {
+  color: #f94877;
+}
+
+.socicon-behance {
+  color: #131418;
+}
+
+.socicon-snapchat {
+  color: #FFFC00;
+}
+
+.socicon-500px {
+  color: #0099e5;
+}
+
+.socicon-envato {
+  color: #82b541;
+}
+
+.socicon-etsy {
+  color: #d5641c;
+}
+
+.socicon-airbnb {
+  color: #fd5c63;
+}
+
+.socicon-amazon {
+  color: #ff9900;
+}
+
+.socicon-android {
+  color: #a4c639;
+}
+
+.socicon-ask {
+  color:  #db3552;
+}
+
+.socicon-bootstrap {
+  color:  #db3552;
+}
+
+.socicon-codepen {
+  color: #0ebeff;
+}
+
+.socicon-ebay {
+  color: #e53238;
+}
+
+.socicon-fiverr {
+  color: #00b22d;
+}
+
+.socicon-discord {
+  color: #7289da;
+}
+
+.socicon-google {
+  color: #4285f4;
+}
+
+.socicon-github {
+  color: #4078c0;
+}
+
+.socicon-gitlab {
+  color: #fca326;
+}
+
+.socicon-itunes {
+  color: #BF5AF2;
+}
+
+.socicon-paypal {
+  color: #3b7bbf;
+}
+
+.socicon-patreon {
+  color: #f96854;
+}
+
+.socicon-periscope {
+  color: #3aa4c6;
+}
+
+.socicon-wikipedia {
+  color: #0063bf;
+}
+
+.socicon-apple {
+  color: #222221;
+}
+
+.socicon-twitch {
+  color: #9146ff;
+}
+
+.socicon-upwork {
+  color: #6FDA44;
+}
+
+.socicon-alibaba {
+  color: #ff6a00;
+}

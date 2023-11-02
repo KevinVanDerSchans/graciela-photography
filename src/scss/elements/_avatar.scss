@@ -1,0 +1,92 @@
+:root {
+  --avatar-sm: 1em;
+  --avatar-md: 2em;
+  --avatar-lg: 3em;
+}
+
+.avatar__figure {
+  width: 50px;
+  height: 50px;
+}
+
+.avatar__img, .avatar__placeholder {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: inherit;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.avatar__placeholder {
+  background-color: var(--color-contrast-low);
+  color: var(--color-bg);
+  fill: transparent;
+}
+
+.avatar--btn {
+  @include reset;
+  cursor: pointer;
+}
+
+.avatar--sm {
+  font-size: var(--avatar-sm);
+}
+
+.avatar--md {
+  font-size: var(--avatar-md);
+}
+
+.avatar--lg {
+  font-size: var(--avatar-lg);
+}
+
+.avatar__status {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  width: 0.2em;
+  height: 0.2em;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--color-bg);
+  background-color: var(--color-contrast-medium);
+}
+
+.avatar__status--active {
+  background-color: var(--color-success);
+}
+
+.avatar__status--busy {
+  background-color: var(--color-error);
+}
+
+.avatar__initials, .avatar__users-counter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  border-radius: inherit;
+  background-color: var(--color-contrast-lower);
+  color: var(--color-contrast-higher);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar__initials {
+  text-align: center;
+
+  span {
+    font-size: 0.5em;
+  }
+}
+
+.avatar__users-counter {
+  span {
+    font-size: 0.42em;
+  }
+}
