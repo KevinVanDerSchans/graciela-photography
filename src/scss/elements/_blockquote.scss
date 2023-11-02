@@ -1,0 +1,69 @@
+.ms-bqt2 {
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+  border: solid 3px var(--color-primary);
+  border-radius: 12pt;
+  padding-bottom: 20px;
+
+  svg {
+    transform: translateY(-50%);
+    font-size: var(--icon-xl);
+    background-color: var(--color-bg);
+    padding: 0 12pt;
+    height: 40px;
+
+      path {
+        fill: var(--color-primary);
+      }
+    }
+
+    p {
+      margin: 0 0 20px;
+      font-size: var(--text-md);
+      line-height: var(--body-line-height);
+      font-style: italic;
+    }
+
+    cite {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: var(--space-sm);
+    }
+}
+
+blockquote:not(.ms-bqt2) {
+  position: relative;
+  z-index: 1;
+  position: relative;
+  padding: 1.75rem 2.5rem;
+  border-left: solid 2pt;
+  border-top-right-radius: 12pt;
+  border-bottom-right-radius: 12pt;
+  background-color: hsla(var(--color-contrast-high-h), var(--color-contrast-high-s), var(--color-contrast-high-l),var(--color-o,.04));
+
+    p {
+      position: relative;
+      z-index: 3;
+      font-size: 18px;
+      font-style: italic;
+      margin-bottom: 1rem;
+  }
+}
+
+blockquote.has-text-align-right {
+  padding: 1.75rem 2.5rem !important;
+  border-left: none !important;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 12pt;
+  border-bottom-left-radius: 12pt;
+  border-right: solid 2pt !important;
+}
+
+.wp-block-pullquote {
+
+    blockquote {
+      background: none;
+    }
+}

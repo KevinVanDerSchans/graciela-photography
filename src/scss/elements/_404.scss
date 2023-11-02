@@ -1,0 +1,35 @@
+.ms-404-page {
+  height: calc(90vh - var(--main-header-height-md));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    line-height: 1;
+    font-weight: 700;
+  }
+
+  p {
+    max-width: 26em;
+    color: var(--color-contrast-medium);
+  }
+
+  .ms-404--bg h1 {
+    font-size: 30vw;
+    margin: 0;
+    line-height: 1;
+    padding: 0;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+    opacity: 0.1;
+    font-weight: 900;
+    user-select: none;
+  }
+}

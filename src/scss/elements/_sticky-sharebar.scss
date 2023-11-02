@@ -1,0 +1,103 @@
+.sharebar__btn {
+  display: inline-block;
+  padding: var(--space-sm);
+  background: var(--color-contrast-lower);
+  border-radius: 50%;
+  transition: .2s;
+
+  .icon {
+    display: block;
+    color: var(--color-contrast-high);
+    transition: color .2s;
+    font-size: 1.2em;
+  }
+
+  &:hover {
+    background-color: var(--color-bg);
+    box-shadow: var(--shadow-sm);
+
+    .icon {
+      color: var(--color-primary);
+    }
+  }
+}
+
+.sticky-sharebar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  right: var(--space-md);
+  pointer-events: none;
+  z-index: var(--zindex-fixed-element);
+  transition: visibility 0s .3s, opacity 250ms, transform 250ms ease-in-out;
+  transform: translateX(10%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sticky-sharebar--on-target {
+  transition: visibility 0s, opacity 250ms, transform 250ms ease-in-out;
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.sticky-sharebar__list {
+  pointer-events: auto;
+  background-color: alpha(var(--color-bg), 0.95);
+  backdrop-filter: blur(5px);
+  border-radius: 50em;
+  border: solid 1px var(--color-contrast-lower);
+  padding: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.08), 0 16px 16px rgba(0, 0, 0, 0.02);
+}
+
+.sticky-sharebar__btn {
+  position: relative;
+  display: block;
+  display: flex;
+  width: 2.2em;
+  height: 2.2em;
+  border-radius: 50%;
+
+  .icon {
+    position: relative;
+    color: var(--color-contrast-medium);
+    display: block;
+    margin: auto;
+    z-index: 2;
+    transition: color 250ms ease;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: inherit;
+    background-color: var(--color-primary-lighter);
+    transform: scale(0);
+    transition: transform 250ms ease-out;
+  }
+
+  &:hover {
+    .icon {
+      color: var(--color-primary);
+    }
+
+    &::before {
+      transform: scale(1);
+    }
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .sticky-sharebar--on-target {
+    display: none;
+  }
+}

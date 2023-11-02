@@ -8,7 +8,7 @@ export default function Document() {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"></link>
       </Head>
 
-      <body>
+      <body data-theme="light" data-menu="fixed" data-footer-effect="on" data-footer-corners="on">
         <Main />
         <NextScript />
       </body>

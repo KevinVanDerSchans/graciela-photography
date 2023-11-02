@@ -1,0 +1,235 @@
+.ms-section__comments {
+  width: 100%;
+  max-width: var(--responsive--aligndefault-width);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: calc(var(--space-lg) + 10px) 0;
+
+  .ms-comments-title {
+    font-weight: 900;
+    font-size: calc(var(--text-xl,1.728em) + 1px);
+    margin-bottom: var(--space-sm);
+    font-family: var(--font-heading);
+  }
+
+  .required-field-message {
+    margin-left: 4pt;
+  }
+}
+
+.form-submit .btn {
+  border-radius: 4px;
+}
+
+.ms-comment-list {
+  padding-left: 0;
+  width: 100%;
+  position: relative;
+  margin-bottom: var(--space-lg);
+  list-style: none;
+}
+
+.ms-author-vcard--info {
+  display: flex;
+  flex-direction: column;
+
+  .ms-author-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .ms-comment-time {
+    font-size: 15px;
+    margin-top: 2pt;
+    color: var(--color-contrast-medium);
+  }
+}
+
+.ms-comment-body {
+  font-size: var(--text-sm);
+  position: relative;
+  margin: 30px 0;
+  display: flex;
+  padding: 20px;
+  border-radius: 24pt;
+  border: solid 1px var(--color-contrast-lower);
+  background-color: var(--color-contrast-lower);
+}
+
+.ms-comment-body:last-child {
+  margin-bottom: 0;
+}
+
+.ms-author-vcard {
+  margin-right: 20px;
+  position: relative;
+}
+
+.ms-author-vcard-content {
+  width: 100%;
+}
+
+.ms-commentcontent {
+  margin-top: calc(var(--global--spacing-vertical) - 10px);
+  font-size: 16px;
+  margin-right: 2pt;
+  line-height: 1.8;
+  border-radius: 8px;
+
+  > *:not(blockquote p) {
+    margin-bottom: calc(var(--global--spacing-vertical) - 10px);
+  }
+
+  img {
+    padding: 6pt 0;
+  }
+}
+
+.ms-comment-footer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  justify-content: flex-end;
+}
+
+.comment-edit-link,
+.ms-comment-footer a {
+  margin-right: var(--space-xxxs);
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  color: var(--color-primary);
+  transition: opacity 250ms ease;
+
+  svg {
+    fill: var(--color-primary);
+    margin-right: var(--space-xxxs);
+  }
+
+  &:hover {
+    opacity: .75;
+  }
+}
+
+.ms-comment-edit a {
+  margin-right: 12pt;
+}
+
+.comment-reply-link {
+  .group {
+    fill: var(--color-primary);
+    margin-right: var(--space-xxxs);
+  }
+}
+
+.ms-comment-footer div:last-child a {
+  margin-right: 0;
+}
+
+.ms-comment-list .children {
+  margin-left: var(--space-lg);
+  list-style: none;
+}
+
+.comment-notes {
+  font-size: 14px;
+  color: var(--color-contrast-medium);
+}
+
+.comment-notes,
+.logged-in-as {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.comment-form-cookies-consent {
+  font-size: 14px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 30px;
+
+    #wp-comment-cookies-consent {
+      margin-right: 8pt;
+      margin-top: 2pt;
+    }
+}
+
+.post.pingback {
+  margin: var(--space-md) 0;
+
+  .post-date {
+    font-size: 14px;
+    color: var(--color-contrast-medium);
+    margin-bottom: var(--space-sm);
+  }
+}
+
+#reply-title {
+  font-weight: 900;
+}
+
+li + .comment-respond {
+  margin-top: 30px;
+}
+
+#cancel-comment-reply-link {
+  letter-spacing: 0;
+  padding-left: var(--space-xxs);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-error);
+
+  &:hover {
+    opacity: .75;
+  }
+}
+
+@media only screen and (max-width: 552px) {
+  .ms-section__comments {
+    max-width: inherit;
+    padding-right: calc(var(--bs-gutter-x)/ 2)!important;
+    padding-left: calc(var(--bs-gutter-x)/ 2)!important;
+  }
+
+  .comment-notes {
+    padding-left: 2pt;
+    margin-top: 4pt;
+  }
+
+  .comment-form-cookies-consent {
+    margin-left: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  .avatar.avatar--lg {
+    display: none;
+  }
+
+  .ms-author-vcard {
+    margin-left: 0;
+  }
+
+  .ms-comment-list .children {
+    margin-left: 0;
+  }
+}
+
+.btn--comments {
+  border-radius: 6pt;
+  border: none;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  padding: 0 16pt;
+  height: 42px;
+  transition: background-color .3s cubic-bezier(.645,.045,.355,1), transform .1s cubic-bezier(.645,.045,.355,1);
+
+  &:hover {
+    background-color: var(--color-primary-darker);
+  }
+  &:active {
+    transform: translateY(2px);
+  }
+}

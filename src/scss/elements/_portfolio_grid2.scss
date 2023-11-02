@@ -1,0 +1,12 @@
+.ms-p--g2 {
+
+    .grid-item-p {
+      display: flex;
+      flex-direction: column;
+
+        .ms-p-content {
+          display: flex;
+          flex-direction: column;
+        }
+    }
+}

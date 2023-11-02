@@ -1,0 +1,67 @@
+.ms-sb {
+    position: relative;
+
+    .ms-sb--img.boxed {
+      width: 64px;
+      height: 64px;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+
+        a {
+          font-size: 0;
+        }
+
+        img {
+          width: 32px;
+          height: 32px;
+        }
+
+        &.margin-x-auto {
+          margin: 0 auto;
+        }
+    }
+
+    .ms-sb--title {
+        margin-bottom: var(--space-xxxs);
+
+        a {
+          color: initial;
+          text-decoration: none;
+        }
+    }
+
+    .ms-sb--text {
+      font-weight: var(--font-weight-light);
+      line-height: var(--body-line-height);
+    }
+}
+
+.ms-sb.img-top .ms-sb--img {
+  display: inline-block;
+  font-size: 0;
+  margin-bottom: 1.5rem;
+}
+
+.ms-sb.img-left {
+  display: flex;
+
+  .ms-sb--img {
+    margin-right: 1.5rem;
+    flex: 0 0 auto;
+    display: flex;
+    height: min-content;
+  }
+}
+
+.ms-sb.img-right {
+  display: flex;
+  flex-direction: row-reverse;
+
+  .ms-sb--img {
+    margin-left: 1.5rem;
+    flex: 0 0 auto;
+    display: flex;
+    height: min-content;
+  }
+}
