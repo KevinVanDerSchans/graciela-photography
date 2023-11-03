@@ -1,7 +1,10 @@
 import { useRouter } from 'next/router';
 import SwiperCore, { Navigation, Pagination, Parallax } from 'swiper';
 
-import Home from './home';
+import Home from '../pages/home';
+import Works from '../pages/works'
+import Contact from '../pages/contact';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js';
@@ -14,6 +17,7 @@ import 'swiper/scss/parallax';
 
 import "../src/scss/style.scss";
 
+
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
 
@@ -23,9 +27,11 @@ function Layout ({ children }) {
   if (router.pathname === '/') {
     return <Home />;
 
-  } else if (router.pathname === "/test") {
-    return <h2>test</h2>
+  } else if (router.pathname === '/works') {
+    return <Works />;
 
+  } else if (router.pathname === '/contact') {
+    return <Contact />;
   }
 
   return <div>{children}</div>
