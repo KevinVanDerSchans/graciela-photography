@@ -29,7 +29,7 @@ const Collection = () => {
                             </div>
 
                             <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                              <Image decoding="async" src={`/images/portfolio/${work.image}`} alt={work.title} width={800} height={600} />
+                              <Image decoding="async" src={`/images/collection/${work.image}`} alt={work.title} width={800} height={600} />
                             </figure>
                           </Link>
                         </div>
