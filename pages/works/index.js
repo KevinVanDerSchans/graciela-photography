@@ -16,7 +16,7 @@ const Works = () => {
       <Header
         headerLogo={Logo}
       />
-    {/* }
+
       <div class="breadcrumb-area breadcrumbs-2 breadcrumb-bg bg_image">
         <div class="container">
             <div class="row align-items-end banner">
@@ -29,7 +29,7 @@ const Works = () => {
             </div>
         </div>
       </div>
-  */}
+
       <main className="ms-main">
         <Collection />
       </main>

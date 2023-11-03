@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from '../ScrollTop';
 
 const Footer = (props) => {
   const { footerClass } = props;
@@ -75,6 +76,8 @@ const Footer = (props) => {
             </div>
         </section>
       </footer>
+
+      <ScrollToTop />
     </>
   )
 };
