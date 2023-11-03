@@ -2,8 +2,13 @@ import { useRouter } from 'next/router';
 import SwiperCore, { Navigation, Pagination, Parallax } from 'swiper';
 
 import Home from '../pages/home';
-import Works from '../pages/works'
 import Contact from '../pages/contact';
+
+
+
+import Works from '../pages/works/index'
+import WorksDetails from '../pages/works/[slug]';
+
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -29,6 +34,9 @@ function Layout ({ children }) {
 
   } else if (router.pathname === '/works') {
     return <Works />;
+
+  } else if (router.pathname.startsWith("/work/")) {
+    return <WorksDetails />;
 
   } else if (router.pathname === '/contact') {
     return <Contact />;
