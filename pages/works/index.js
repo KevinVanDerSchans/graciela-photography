@@ -3,10 +3,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import Header from "../../src/components/Header";
-import Collection from "./Collection"
-// import Footer from "../../src/components/Footer";
+import Collection from "./Collection";
+import Footer from "../../src/components/Footer";
 
-import Logo from "../../public/images/temporalLogo.jpg"
+import Logo from "../../public/images/temporalLogo.jpg";
 
 
 const Works = () => {
@@ -16,7 +16,7 @@ const Works = () => {
       <Header
         headerLogo={Logo}
       />
-
+    {/* }
       <div class="breadcrumb-area breadcrumbs-2 breadcrumb-bg bg_image">
         <div class="container">
             <div class="row align-items-end banner">
@@ -29,12 +29,12 @@ const Works = () => {
             </div>
         </div>
       </div>
-
+  */}
       <main className="ms-main">
         <Collection />
       </main>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 };
