@@ -6,8 +6,9 @@ import Contact from '../pages/contact';
 
 
 
-import Works from '../pages/works/index'
-import WorksDetails from '../pages/works/[slug]';
+import Works from '../pages/works'
+import PersonalSessions from '../pages/worksDetails/PersonalSessions'
+import Fitness from "../pages/worksDetails/Fitness"
 
 
 
@@ -35,8 +36,11 @@ function Layout ({ children }) {
   } else if (router.pathname === '/works') {
     return <Works />;
 
-  } else if (router.pathname.startsWith("/work/")) {
-    return <WorksDetails />;
+  } else if (router.asPath === '/works/personal-sessions') {
+    return <PersonalSessions />
+
+  } else if (router.asPath === '/works/fitness') {
+    return <Fitness />
 
   } else if (router.pathname === '/contact') {
     return <Contact />;
