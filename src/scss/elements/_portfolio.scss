@@ -1432,10 +1432,20 @@ body.index-two[data-footer-effect=on]{
                     height: 100vh;
 
                     .jarallax-img{
-                        background-image: url(/images/slider/most_slide_1.jpg) !important;
+                        background-image: url(/images/collection/personal-sessions.jpg) !important;
                         background-size: cover;
                         border-radius: 0;
                     }
+                }
+
+                &.personal-sessions{
+                  height: 100vh;
+
+                  .jarallax-img{
+                      background-image: url(/images/bg/personal-sessions.jpg) !important;
+                      background-size: cover;
+                      border-radius: 0;
+                  }
                 }
             }
 
@@ -1755,6 +1765,7 @@ body.index-two[data-footer-effect=on]{
                     border-width: 1px 0px 0px 0px;
                     border-color: #FFFFFF;
                     -webkit-transform: rotate(0deg);
+                    transform: rotate(0deg);
 
                     .ms-tt{
                         .ms-tt__text{

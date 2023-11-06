@@ -19,6 +19,7 @@ const Collection = () => {
 
                 <TabPanel className="row">
 
+                    {/* Personal Sessions */}
                       <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
                         <div className="item--inner">
 
@@ -34,7 +35,7 @@ const Collection = () => {
                         </div>
                       </div>
 
-
+                    {/* Fitness */}
                       <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
                         <div className="item--inner">
 
