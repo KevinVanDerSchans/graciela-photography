@@ -1,4 +1,8 @@
-import React from 'react';
+
+import React, { useEffect } from 'react';
+import $ from "jquery";
+import "justifiedGallery";
+
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -12,7 +16,28 @@ import four from "../../../public/images/collection/personalSessions/4.jpg";
 import five from "../../../public/images/collection/personalSessions/5.jpg";
 import six from "../../../public/images/collection/personalSessions/6.jpg";
 
+
 function PersonalSessions() {
+
+  useEffect(() => {
+    $(document).ready(function () {
+      $('#colorboxExample').justifiedGallery({
+        lastRow: 'nojustify',
+        rowHeight: 100,
+        rel: 'gallery1', // reemplaza con 'gallery1' el atributo rel de cada enlace
+        margins: 1
+      });
+    }).on('jg.complete', function () {
+      $(this).find('a').colorbox({
+        maxWidth: '80%',
+        maxHeight: '80%',
+        opacity: 0.8,
+        transition: 'elastic',
+        current: ''
+      });
+    });
+  }, []);
+
 
   return (
     <div className="masonry">
@@ -69,8 +94,22 @@ function PersonalSessions() {
                   <div className="row grid grid-content blockgallery">
                     <div className="grid-sizer col-xs-12 col-lg-4 col-md-3"></div>
 
-                      <div className="grid-item col-6 col-lg-4 col-md-4 one">
-                        <a className="mfp-img" href="#0" title="">
+
+
+                    <div id="basicExample">
+                      <a href="path/to/image1.jpg">
+                          <img alt="caption for image 1" src="/images/collection/personalSessions/4.jpg"/>
+                      </a>
+                      <a href="path/to/image2.jpg">
+                          <img alt="caption for image 2" src="/images/collection/personalSessions/4.jpg"/>
+                      </a>
+
+                    </div>
+
+
+
+                      <div id="my-gallery" className="grid-item col-6 col-lg-4 col-md-4 one">
+                        <a className="mfp-img" href="public/images/collection/animals.jpg" data-lightbox="animals.jpg" data-title="My caption" title="">
                           <figure className="media-wrapper one media-wrapper--4:3">
                             <Image decoding="async" src={one} alt="full-shot-travel-concept-with-landmarks" />
                           </figure>
@@ -148,6 +187,8 @@ function PersonalSessions() {
             </div>
           </section>
         </div>
+
+
       </main>
 
       <Footer />

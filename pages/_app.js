@@ -1,3 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "../dist/css/lightbox.min.css";
+import "src/styles.css";
 import { useRouter } from 'next/router';
 import SwiperCore, { Navigation, Pagination, Parallax } from 'swiper';
 
@@ -5,15 +8,10 @@ import Home from '../pages/home';
 import Contact from '../pages/contact';
 
 
-
 import Works from '../pages/works'
 import PersonalSessions from '../pages/worksDetails/PersonalSessions'
 import Fitness from "../pages/worksDetails/Fitness"
 
-
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'jquery/dist/jquery.min.js';
 
 import 'swiper/scss';
 import 'swiper/scss/navigation';
