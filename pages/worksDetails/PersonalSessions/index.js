@@ -5,6 +5,8 @@ import Image from 'next/image';
 import Header from "../../../src/components/Header";
 import Footer from '../../../src/components/Footer';
 
+import Contact from '../../contact';
+
 import one from "../../../public/images/collection/personalSessions/1.jpg";
 import two from "../../../public/images/collection/personalSessions/2.jpg";
 import three from "../../../public/images/collection/personalSessions/3.jpg";
@@ -17,6 +19,8 @@ function PersonalSessions() {
   return (
     <div className="masonry">
       <Header />
+
+
 
       <main className="ms-main single">
         <div className="ms-page-content">
@@ -69,9 +73,15 @@ function PersonalSessions() {
                   <div className="row grid grid-content blockgallery">
                     <div className="grid-sizer col-xs-12 col-lg-4 col-md-3"></div>
 
+                    <Contact />
+
                       <div className="grid-item col-6 col-lg-4 col-md-4 one">
+
+
                         <a className="mfp-img" href="#0" title="">
+
                           <figure className="media-wrapper one media-wrapper--4:3">
+
                             <Image decoding="async" src={one} alt="full-shot-travel-concept-with-landmarks" />
                           </figure>
                         </a>

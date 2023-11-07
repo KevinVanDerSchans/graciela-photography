@@ -9,18 +9,18 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-import photos from "../../src/utils/photos";
+import personalSessionsImages from "../../src/utils/personalSessionsImages";
 
 
-export default function App() {
+function Contact() {
   const [index, setIndex] = useState(-1);
 
   return (
     <>
-      <PhotoAlbum photos={photos} layout="rows" targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
+      <PhotoAlbum photos={personalSessionsImages} layout="rows" targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
 
       <Lightbox
-        slides={photos}
+        slides={personalSessionsImages}
         open={index >= 0}
         index={index}
         close={() => setIndex(-1)}
@@ -30,3 +30,5 @@ export default function App() {
     </>
   );
 }
+
+export default Contact;
