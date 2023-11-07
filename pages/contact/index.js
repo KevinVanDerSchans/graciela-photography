@@ -10,9 +10,9 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 import photos from "../../src/utils/photos";
+// import myPhotos from "../../src/utils/myPhotos";
 
-
-export default function App() {
+function Contact() {
   const [index, setIndex] = useState(-1);
 
   return (
@@ -30,3 +30,5 @@ export default function App() {
     </>
   );
 }
+
+export default Contact;
