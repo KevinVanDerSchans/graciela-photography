@@ -1,12 +1,32 @@
-import React from "react";
+import { useState } from "react";
+import PhotoAlbum from "react-photo-album";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
-const Contact = () => {
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+
+import photos from "../../src/utils/photos";
+
+
+export default function App() {
+  const [index, setIndex] = useState(-1);
 
   return (
     <>
-      <span>test</span>
-    </>
-  )
-};
+      <PhotoAlbum photos={photos} layout="rows" targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
 
-export default Contact;
+      <Lightbox
+        slides={photos}
+        open={index >= 0}
+        index={index}
+        close={() => setIndex(-1)}
+
+        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+      />
+    </>
+  );
+}
