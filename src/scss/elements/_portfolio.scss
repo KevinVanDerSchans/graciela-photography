@@ -1447,6 +1447,16 @@ body.index-two[data-footer-effect=on]{
                       border-radius: 0;
                   }
                 }
+
+                &.fitness{
+                  height: 100vh;
+
+                  .jarallax-img{
+                      background-image: url(/images/bg/fitness.jpg) !important;
+                      background-size: cover;
+                      border-radius: 0;
+                  }
+                }
             }
 
             &.services{
