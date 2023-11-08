@@ -1,8 +1,7 @@
 const personalSessionsImages = [
   {
     src: '/images/collection/personalSessions/1.jpg',
-    share: '1.jpg',
-    width: 900,
+    width: 800,
     height: 800,
   },
   {
@@ -14,6 +13,21 @@ const personalSessionsImages = [
     src: '/images/collection/personalSessions/3.jpg',
     width: 800,
     height: 720,
+  },
+  {
+    src: '/images/collection/personalSessions/4.jpg',
+    width: 800,
+    height: 920,
+  },
+  {
+    src: '/images/collection/personalSessions/5.jpg',
+    width: 1300,
+    height: 1620,
+  },
+  {
+    src: '/images/collection/personalSessions/6.jpg',
+    width: 1700,
+    height: 1620,
   },
 ];
 
