@@ -67,6 +67,22 @@ const Collection = () => {
                       </div>
                     </div>
 
+                    {/* Pre-weddings */}
+                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                      <div className="item--inner">
+
+                        <Link href="/works/pre-weddings" aria-label="Pre-weddings">
+                          <div className="ms-p-content">
+                            <h3>Pre-weddings</h3>
+                          </div>
+
+                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                            <Image decoding="async" src="/images/collection/pre-weddings.jpg" alt="Pre-weddings" width={800} height={600} />
+                          </figure>
+                        </Link>
+                      </div>
+                    </div>
+
 
                 </TabPanel>
 
