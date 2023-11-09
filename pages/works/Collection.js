@@ -84,6 +84,40 @@ const Collection = () => {
                     </div>
 
 
+                    {/* Weddings */}
+                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                      <div className="item--inner">
+
+                        <Link href="/works/weddings" aria-label="Weddings">
+                          <div className="ms-p-content">
+                            <h3>Weddings</h3>
+                          </div>
+
+                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                            <Image decoding="async" src="/images/collection/weddings.jpg" alt="Weddings" width={800} height={600} />
+                          </figure>
+                        </Link>
+                      </div>
+                    </div>
+
+
+                    {/* Pregnant */}
+                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                      <div className="item--inner">
+
+                        <Link href="/works/pregnant" aria-label="Pregnant">
+                          <div className="ms-p-content">
+                            <h3>Pregnant</h3>
+                          </div>
+
+                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                            <Image decoding="async" src="/images/collection/pregnant.jpg" alt="Pregnant" width={800} height={600} />
+                          </figure>
+                        </Link>
+                      </div>
+                    </div>
+
+
                 </TabPanel>
 
               </div>

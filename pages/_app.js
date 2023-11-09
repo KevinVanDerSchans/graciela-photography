@@ -9,7 +9,7 @@ import PersonalSessions from '../pages/worksDetails/PersonalSessions';
 import Fitness from "../pages/worksDetails/Fitness";
 import Animals from "../pages/worksDetails/Animals";
 import PreWeddings from "../pages/worksDetails/PreWeddings";
-
+import Weddings from "../pages/worksDetails/Weddings";
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -47,6 +47,9 @@ function Layout ({ children }) {
 
   } else if (router.asPath === '/works/pre-weddings') {
     return <PreWeddings />
+
+  } else if (router.asPath === '/works/weddings') {
+    return <Weddings />
 
   } else if (router.pathname === '/contact') {
     return <Contact />;
