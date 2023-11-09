@@ -135,6 +135,23 @@ const Collection = () => {
                     </div>
 
 
+                    {/* Exterior */}
+                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                      <div className="item--inner">
+
+                        <Link href="/works/exterior" aria-label="Exterior">
+                          <div className="ms-p-content">
+                            <h3>Exterior</h3>
+                          </div>
+
+                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                            <Image decoding="async" src="/images/collection/exterior.jpg" alt="Exterior" width={800} height={600} />
+                          </figure>
+                        </Link>
+                      </div>
+                    </div>
+
+
                 </TabPanel>
 
               </div>
