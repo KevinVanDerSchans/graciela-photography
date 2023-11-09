@@ -13,6 +13,7 @@ import Weddings from "../pages/worksDetails/Weddings";
 import Pregnant from "../pages/worksDetails/Pregnant";
 import Babies from "../pages/worksDetails/Babies";
 import Exterior from "../pages/worksDetails/Exterior";
+import Dance from "../pages/worksDetails/Dance";
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -62,6 +63,9 @@ function Layout ({ children }) {
 
   } else if (router.asPath === '/works/exterior') {
     return <Exterior />
+
+  } else if (router.asPath === '/works/dance') {
+    return <Dance />
 
   } else if (router.pathname === '/contact') {
     return <Contact />;
