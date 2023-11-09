@@ -16,10 +16,10 @@ import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/counter.css";
 
-import preWeddingsImages from "../../../src/data/preWeddingsImages";
+import weddingsImages from "../../../src/data/weddingsImages";
 
 
-function PreWeddings() {
+function Weddings() {
 
   const [index, setIndex] = useState(-1);
 
@@ -35,11 +35,11 @@ function PreWeddings() {
                 <div className="row top">
 
                   <div className="col-lg-6">
-                    <h1 className="heading-title">Pre-weddings</h1>
+                    <h1 className="heading-title">Weddings</h1>
                   </div>
 
                   <div className="col-lg-6">
-                    <p className="desc">Each image is a testimony to the love, complicity and joy shared by the couple, creating memories that will last a lifetime.</p>
+                    <p className="desc">Immerse yourself in the charm and emotion of one of the most special days in a couple&apos;s life through our wedding photography section.</p>
                   </div>
                 </div>
 
@@ -66,7 +66,7 @@ function PreWeddings() {
             </div>
           </div>
 
-          <section className="ms-hero project pre-weddings">
+          <section className="ms-hero project weddings">
             <div className="ms-parallax jarallax-img" data-speed="0.7" data-type="scroll"></div>
           </section>
 
@@ -81,8 +81,8 @@ function PreWeddings() {
                     <div className='row grid grid-content blockgallery'>
 
                       <PhotoAlbum
-                        photos={preWeddingsImages}
-                        alt="Pre-weddings collection"
+                        photos={weddingsImages}
+                        alt="Weddings collection"
                         targetRowHeight={350}
                         layout="rows"
 
@@ -93,8 +93,8 @@ function PreWeddings() {
 
 
                       <Lightbox
-                        slides={preWeddingsImages}
-                        alt="Pre-weddings collection"
+                        slides={weddingsImages}
+                        alt="Weddings collection"
 
                         open={index >= 0}
                         index={index}
@@ -136,13 +136,13 @@ function PreWeddings() {
                       <h3>Next Project</h3>
                     </div>
 
-                    <h1>Weddings</h1>
+                    <h1>Pregnant</h1>
                   </Link>
                 </div>
 
                 <div className="col-md-6">
-                  <Link href="/works/weddings" className="ms-spn--thumb">
-                    <Image src="/images/collection/weddings.jpg" alt="Weddings collection" width={800} height={600} />
+                  <Link href="/works/pregnant" className="ms-spn--thumb">
+                    <Image src="/images/collection/pregnant.jpg" alt="Pregnant collection" width={800} height={600} />
                   </Link>
                 </div>
               </div>
@@ -156,4 +156,4 @@ function PreWeddings() {
   );
 };
 
-export default PreWeddings;
+export default Weddings;
