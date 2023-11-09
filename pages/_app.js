@@ -5,9 +5,9 @@ import Home from '../pages/home';
 import Contact from '../pages/contact';
 
 import Works from '../pages/works'
-import PersonalSessions from '../pages/worksDetails/PersonalSessions'
-import Fitness from "../pages/worksDetails/Fitness"
-
+import PersonalSessions from '../pages/worksDetails/PersonalSessions';
+import Fitness from "../pages/worksDetails/Fitness";
+import Animals from "../pages/worksDetails/Animals";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js';
@@ -38,6 +38,9 @@ function Layout ({ children }) {
 
   } else if (router.asPath === '/works/fitness') {
     return <Fitness />
+
+  } else if (router.asPath === '/works/animals') {
+    return <Animals />
 
   } else if (router.pathname === '/contact') {
     return <Contact />;

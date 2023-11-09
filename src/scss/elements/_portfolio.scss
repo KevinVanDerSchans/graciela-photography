@@ -1457,6 +1457,16 @@ body.index-two[data-footer-effect=on]{
                       border-radius: 0;
                   }
                 }
+
+                &.animals{
+                  height: 100vh;
+
+                  .jarallax-img{
+                      background-image: url(/images/bg/animals.jpg) !important;
+                      background-size: cover;
+                      border-radius: 0;
+                  }
+                }
             }
 
             &.services{
