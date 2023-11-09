@@ -1487,6 +1487,16 @@ body.index-two[data-footer-effect=on]{
                       border-radius: 0;
                   }
                 }
+
+                &.pregnant{
+                  height: 100vh;
+
+                  .jarallax-img{
+                      background-image: url(/images/bg/pregnant.jpg) !important;
+                      background-size: cover;
+                      border-radius: 0;
+                  }
+                }
             }
 
             &.services{
