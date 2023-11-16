@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
-import emailjs from 'emailjs-com';
-
 import { serviceID, emailTemplate, publicAPI } from '../../src/config';
+import emailjs from 'emailjs-com';
+import Swal from "sweetalert2";
 
 function ContactForm() {
   const [send, setSend] = useState(false);
@@ -18,12 +18,34 @@ function ContactForm() {
       publicAPI
     )
     .then(
-      (result) => {
+      () => {
         setSend(true);
         form.current.reset();
+
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          iconColor: 'white',
+          title: 'Mensaje enviado!',
+          text: 'Te responderemos en la mayor brevedad. ¡Muchas gracias!',
+          showConfirmButton: false,
+          color: 'white',
+          background:
+            "linear-gradient(to left, #eb836a, #c94626)",
+          timer: 4000,
+        });
       },
-      (error) => {
-        console.log(error.text);
+
+      () => {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: '¡No se ha podido enviar el mensaje! Prueba de nuevo más tarde',
+          showConfirmButton: true,
+          color: 'white',
+          background:
+          "linear-gradient(to left, #eb836a, #c94626)",
+        });
       }
     );
   }
