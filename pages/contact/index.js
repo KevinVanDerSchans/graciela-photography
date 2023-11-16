@@ -1,8 +1,17 @@
+import Header from "../../src/components/Header";
+import Footer from "../../src/components/Footer";
+
+import Logo from "../../public/images/temporalLogo.jpg";
+
 function Contact() {
 
   return (
     <>
-      <span>test</span>
+       <Header
+        headerLogo={Logo}
+      />
+
+      <Footer />
     </>
   );
 }
