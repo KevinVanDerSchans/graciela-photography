@@ -15,14 +15,14 @@ const Works = () => {
         headerLogo={Logo}
       />
 
-      <div class="breadcrumb-area breadcrumbs-2 breadcrumb-bg bg_image">
-        <div class="container">
-            <div class="row align-items-end banner">
-                <div class="col-lg-8 breadcrumb-1">
-                    <h2 class="heading-title">EXPLORE MY <br/> COLLECTION</h2>
+      <div className="breadcrumb-area breadcrumbs-2 breadcrumb-bg bg_image">
+        <div className="container">
+            <div className="row align-items-end banner">
+                <div className="col-lg-8 breadcrumb-1">
+                    <h2 className="heading-title">EXPLORE MY <br/> COLLECTION</h2>
                 </div>
-                <div class="col-lg-4">
-                    <p class="desc"></p>
+                <div className="col-lg-4">
+                    <p className="desc"></p>
                 </div>
             </div>
         </div>
