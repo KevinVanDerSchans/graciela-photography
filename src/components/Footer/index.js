@@ -21,10 +21,10 @@ const Footer = (props) => {
                 <div className="social-wrapper">
                   <div className="content">
                     <h3 className="platform">Instagram</h3>
-                      <a href="https://www.google.com/" target="_blank">@graciela_delafuentee</a>
+                      <a href="https://www.instagram.com/graciela_delafuentee" target="_blank">@graciela_delafuentee</a>
                   </div>
                   <div className="social">
-                    <a href="https://www.google.com/" target="_blank" className="icon"><i className="socicon-instagram"></i></a>
+                    <a href="https://www.instagram.com/graciela_delafuentee" target="_blank" className="icon"><i className="socicon-instagram"></i></a>
                   </div>
                 </div>
               </div>
@@ -33,10 +33,10 @@ const Footer = (props) => {
                 <div className="social-wrapper">
                   <div className="content">
                     <h3 className="platform">Twitter</h3>
-                      <a href="https://www.google.com/" target="_blank" className="link">@GracielaDelafuentee</a>
+                      <a href="#" className="link">@GracielaDelafuentee</a>
                     </div>
                     <div className="social">
-                      <a href="https://www.google.com/" target="_blank" className="icon"><i className="socicon-twitter"></i></a>
+                      <a href="#" className="icon"><i className="socicon-twitter"></i></a>
                   </div>
                 </div>
               </div>
@@ -45,10 +45,10 @@ const Footer = (props) => {
                 <div className="social-wrapper">
                   <div className="content">
                     <h3 className="platform">Facebook</h3>
-                      <a href="https://www.google.com/" target="_blank" className="link">Graciela Delafuente</a>
+                      <a href="https://www.facebook.com/graciela.delafuente2" target="_blank" className="link">Graciela Delafuente</a>
                     </div>
                     <div className="social">
-                      <a href="https://www.google.com/" target="_blank" className="icon"><i className="socicon-facebook"></i></a>
+                      <a href="https://www.facebook.com/graciela.delafuente2" target="_blank" className="icon"><i className="socicon-facebook"></i></a>
                   </div>
                 </div>
               </div>
@@ -57,10 +57,10 @@ const Footer = (props) => {
                 <div className="social-wrapper">
                   <div className="content">
                     <h3 className="platform">Whatsapp</h3>
-                      <a href="https://www.google.com/" target="_blank" className="link">Graciela de la fuente</a>
+                      <a href="https://wa.me/666394150" target="_blank" className="link">Graciela de la fuente</a>
                     </div>
                     <div className="social">
-                      <a href="https://www.google.com/" target="_blank" className="icon"><i className="socicon-whatsapp"></i></a>
+                      <a href="https://wa.me/666394150" target="_blank" className="icon"><i className="socicon-whatsapp"></i></a>
                   </div>
                 </div>
               </div>

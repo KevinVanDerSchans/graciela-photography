@@ -29,11 +29,19 @@ function Contact() {
                     <div className="row contact">
                       <ul className="col-lg-6 phone">
                         <li className="tag">Phone:</li>
-                        <li>+34 666 39 41 50</li>
+                        <li>
+                          <a href="tel:666394150">
+                            +34 666 39 41 50
+                          </a>
+                        </li>
                       </ul>
                       <ul className="col-lg-6 email">
                         <li className="tag">Email:</li>
-                        <li>gracieladelafuentee@gmail.com</li>
+                        <li>
+                          <a href="mailto:gracieladelafuentee@gmail.com">
+                            gracieladelafuentee@gmail.com
+                          </a>
+                        </li>
                       </ul>
                     </div>
                   </div>
