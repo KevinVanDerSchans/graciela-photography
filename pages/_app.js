@@ -3,6 +3,7 @@ import SwiperCore, { Navigation, Pagination, Parallax } from 'swiper';
 
 import Home from '../pages/home';
 import Contact from '../pages/contact';
+import Faq from "../pages/faq";
 
 import Works from '../pages/works'
 import PersonalSessions from '../pages/worksDetails/PersonalSessions';
@@ -66,6 +67,9 @@ function Layout ({ children }) {
 
   } else if (router.asPath === '/works/dance') {
     return <Dance />
+
+  } else if (router.pathname === '/faq') {
+    return <Faq />;
 
   } else if (router.pathname === '/contact') {
     return <Contact />;
