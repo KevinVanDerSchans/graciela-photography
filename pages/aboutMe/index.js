@@ -4,18 +4,20 @@ import Footer from "../../src/components/Footer";
 import Logo from "../../public/images/temporalLogo.jpg";
 
 import BannerSection from './BannerSection';
+import CV from "./CV";
 
 const AboutMe = () => {
   return (
     <>
       <Header
-          headerLogo={Logo}
+        headerLogo={Logo}
       />
 
       <main className="ms-main">
         <div className="ms-page-content">
 
-        <BannerSection />
+          <BannerSection />
+          <CV />
 
         </div>
       </main>
