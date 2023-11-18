@@ -5,6 +5,7 @@ import Logo from "../../public/images/temporalLogo.jpg";
 
 import ServiceSection from "./ServiceSection";
 import TestimonialsSection from "./TestimonialsSections";
+import WorksSection from "./WorksSection";
 
 const WhyChooseUs = () => {
   return (
@@ -14,10 +15,11 @@ const WhyChooseUs = () => {
         headerLogo={Logo}
       />
 
-      <main className="ms-main">
+      <main className="ms-main home-six">
         <div className="ms-page-content">
           <ServiceSection />
           <TestimonialsSection />
+          <WorksSection />
         </div>
       </main>
 

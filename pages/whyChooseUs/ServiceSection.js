@@ -15,7 +15,7 @@ const ServiceSection = () => {
             <div className="row">
               <div className="col-lg-6 col-md-12">
                 <div className="left-side-content">
-                  <h2 className="heading-title">Why choouse us?</h2>
+                  <h2 className="heading-title">Why choose us?</h2>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6">
