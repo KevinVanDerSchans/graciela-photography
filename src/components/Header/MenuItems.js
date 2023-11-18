@@ -33,10 +33,18 @@ const MenuItems = (props) => {
       </li>
 
 
-      {/* MY SERVICES */}
-      <li className={location === "/myServices" ? "menu-item active" : "menu-item"}>
-        <Link href="/myServices" title="My services">
-          <span>My services</span>
+      {/* About Me */}
+      <li className={location === "/aboutMe" ? "menu-item active" : "menu-item"}>
+        <Link href="/aboutMe" title="About Me">
+          <span>About Me</span>
+        </Link>
+      </li>
+
+
+      {/* Why choose us? */}
+      <li className={location === "/whyChooseUs" ? "menu-item active" : "menu-item"}>
+        <Link href="/whyChooseUs" title="Why choose us?">
+          <span>Why choose us?</span>
         </Link>
       </li>
 
@@ -45,14 +53,6 @@ const MenuItems = (props) => {
       <li className={location === "/faq" ? "menu-item active" : "menu-item"}>
         <Link href="/faq" title="FAQ">
           <span>FAQ</span>
-        </Link>
-      </li>
-
-
-      {/* About Me */}
-      <li className={location === "/aboutMe" ? "menu-item active" : "menu-item"}>
-        <Link href="/aboutMe" title="About Me">
-          <span>About Me</span>
         </Link>
       </li>
 
