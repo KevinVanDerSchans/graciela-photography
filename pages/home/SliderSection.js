@@ -134,32 +134,32 @@ const HomeSlider = () => {
               </div>
             </SwiperSlide>
 
-            { /* My services */}
+            { /* About Me */}
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={myServicesTemporalImage} alt="full_screen-image" />
+                <Image src={aboutMeTemporalImage} alt="full_screen-image" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
-                      <p className="tag">CHECK MY</p>
+                      <p className="tag">Find out more</p>
                       <Link
-                        href="/myServices"
+                        href="/aboutMe"
                         className="title"
                       >
-                        SERVICES
+                        ABOUT ME
                       </Link>
                     </div>
                     <p className="disc">
-                      Sessions for you, weddings, animals...<span> </span>
+                      Discover my career, my inspiration and<span> </span>
                       <br />
-                      From personal portraits to special events.<span> </span>
+                      how my passion for photography is<span> </span>
                       <br />
-                      What do you need?
+                      reflected in every image I capture.
                     </p>
 
                     <div className="btn-wrap">
-                      <Link
-                        href="/myServices"
+                    <Link
+                        href="/aboutMe"
                         className="btn btn-circle btn--md"
                         role="button"
                       >
@@ -179,7 +179,59 @@ const HomeSlider = () => {
                         </div>
 
                         <div className="ms-btn--label">
-                            <div className="ms-btn__text">My services</div>
+                            <div className="ms-btn__text">Read About Me</div>
+                            <div className="ms-btn__border"></div>
+                        </div>
+                      </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            { /* Why choose us? */}
+            <SwiperSlide className="swiper-slide">
+              <div className="slider-inner" data-swiper-parallax="100">
+
+                <Image src={myServicesTemporalImage} alt="full_screen-image" />
+                  <div className="swiper-content" data-swiper-parallax="2000">
+                    <div className="title-area">
+                      <p className="tag">Why</p>
+                      <Link
+                        href="/whyChooseUs"
+                        className="title"
+                      >
+                        CHOOSE US?
+                      </Link>
+                    </div>
+                    <p className="disc">
+                      Authentic testimonials, collaborations with <span> </span>
+                      <br />
+                      Malaga brands and a wide range of specialized services.<span> </span>
+                    </p>
+
+                    <div className="btn-wrap">
+                      <Link
+                        href="/whyChooseUs"
+                        className="btn btn-circle btn--md"
+                        role="button"
+                      >
+                        <div className="ms-btn--circle">
+                          <div className="circle">
+                            <div className="circle-fill"></div>
+                              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" className="circle-outline">
+                                <circle cx="25" cy="25" r="23"></circle>
+                              </svg>
+
+                            <div className="circle-icon">
+                              <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" className="icon-arrow">
+                                <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="ms-btn--label">
+                            <div className="ms-btn__text">Help yourself to decide!</div>
                             <div className="ms-btn__border"></div>
                         </div>
                       </Link>
@@ -242,60 +294,6 @@ const HomeSlider = () => {
               </div>
             </SwiperSlide>
 
-            { /* About Me */}
-            <SwiperSlide className="swiper-slide">
-              <div className="slider-inner" data-swiper-parallax="100">
-
-                <Image src={aboutMeTemporalImage} alt="full_screen-image" />
-                  <div className="swiper-content" data-swiper-parallax="2000">
-                    <div className="title-area">
-                      <p className="tag">Find out more</p>
-                      <Link
-                        href="/aboutMe"
-                        className="title"
-                      >
-                        ABOUT ME
-                      </Link>
-                    </div>
-                    <p className="disc">
-                      Discover my career, my inspiration and<span> </span>
-                      <br />
-                      how my passion for photography is<span> </span>
-                      <br />
-                      reflected in every image I capture.
-                    </p>
-
-                    <div className="btn-wrap">
-                    <Link
-                        href="/aboutMe"
-                        className="btn btn-circle btn--md"
-                        role="button"
-                      >
-                        <div className="ms-btn--circle">
-                          <div className="circle">
-                            <div className="circle-fill"></div>
-                              <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" className="circle-outline">
-                                <circle cx="25" cy="25" r="23"></circle>
-                              </svg>
-
-                            <div className="circle-icon">
-                              <svg viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg" className="icon-arrow">
-                                <path d="M0 5.65612V4.30388L8.41874 4.31842L5.05997 0.95965L5.99054 0L10.9923 4.97273L6.00508 9.96L5.07451 9.00035L8.43328 5.64158L0 5.65612Z"></path>
-                              </svg>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="ms-btn--label">
-                            <div className="ms-btn__text">Read About Me</div>
-                            <div className="ms-btn__border"></div>
-                        </div>
-                      </Link>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-
             { /* Contact */}
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
@@ -348,7 +346,6 @@ const HomeSlider = () => {
                 </div>
               </div>
             </SwiperSlide>
-
           </Swiper>
 
           <div className="swiper-button-wrapper">
