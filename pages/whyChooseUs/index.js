@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../../src/components/Header";
-import Footer from "../../src/components/Footer";
+import HeaderTwo from "../../src/components/HeaderTwo";
 import Logo from "../../public/images/temporalLogo.jpg";
+import Footer from "../../src/components/Footer";
 
 import ServiceSection from "./ServiceSection";
 import TestimonialsSection from "./TestimonialsSections";
@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
   return (
 
     <div>
-      <Header
+      <HeaderTwo
         headerLogo={Logo}
       />
 

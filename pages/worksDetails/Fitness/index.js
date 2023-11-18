@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Header from "../../../src/components/Header";
+import HeaderTwo from '../../../src/components/HeaderTwo';
+import Logo from "../../../public/images/temporalLogo.jpg";
 import Footer from '../../../src/components/Footer';
 
 import PhotoAlbum from "react-photo-album";
@@ -11,13 +12,11 @@ import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import Counter from "yet-another-react-lightbox/plugins/counter";
-
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/counter.css";
 
 import fitnessImages from "../../../src/data/fitnessImages";
-
 
 function Fitness() {
 
@@ -25,7 +24,9 @@ function Fitness() {
 
   return (
     <div className="masonry">
-      <Header />
+      <HeaderTwo
+        headerLogo={Logo}
+      />
 
       <main className="ms-main single">
         <div className="ms-page-content">

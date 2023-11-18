@@ -4,9 +4,9 @@ import { serviceID, emailTemplate, publicAPI } from '../../src/config';
 import Swal from "sweetalert2";
 import Link from "next/link";
 
-import Header from "../../src/components/Header";
-import Footer from "../../src/components/Footer";
+import HeaderTwo from "../../src/components/HeaderTwo";
 import Logo from "../../public/images/temporalLogo.jpg";
+import Footer from "../../src/components/Footer";
 
 function Faq() {
 
@@ -58,7 +58,7 @@ function Faq() {
 
   return (
     <>
-      <Header
+      <HeaderTwo
         headerLogo={Logo}
       />
 

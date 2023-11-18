@@ -1,14 +1,13 @@
-import Header from "../../src/components/Header";
+import HeaderTwo from "../../src/components/HeaderTwo";
+import Logo from "../../public/images/temporalLogo.jpg";
 import ContactForm from './ContactForm';
 import Footer from "../../src/components/Footer";
-
-import Logo from "../../public/images/temporalLogo.jpg";
 
 function Contact() {
 
   return (
     <>
-      <Header
+      <HeaderTwo
         headerLogo={Logo}
       />
 
