@@ -3,6 +3,7 @@ import SwiperCore, { Navigation, Pagination, Parallax } from 'swiper';
 
 import Home from '../pages/home';
 import Works from '../pages/works'
+import AboutMe from "../pages/aboutMe";
 import WhyChooseUs from "../pages/whyChooseUs";
 import Faq from "../pages/faq";
 import Contact from '../pages/contact';
@@ -38,6 +39,9 @@ function Layout ({ children }) {
 
   } else if (router.pathname === '/works') {
     return <Works />;
+
+  } else if (router.pathname === '/aboutMe') {
+    return <AboutMe />;
 
   } else if (router.pathname === '/whyChooseUs') {
     return <WhyChooseUs />;
