@@ -1,9 +1,7 @@
 import React from "react";
-
 import Header from "../../src/components/Header";
 import Collection from "./Collection";
 import Footer from "../../src/components/Footer";
-
 import Logo from "../../public/images/temporalLogo.jpg";
 
 
