@@ -4,6 +4,7 @@ import Footer from "../../src/components/Footer";
 import Logo from "../../public/images/temporalLogo.jpg";
 
 import ServiceSection from "./ServiceSection";
+import TestimonialsSection from "./TestimonialsSections";
 
 const WhyChooseUs = () => {
   return (
@@ -16,7 +17,7 @@ const WhyChooseUs = () => {
       <main className="ms-main">
         <div className="ms-page-content">
           <ServiceSection />
-
+          <TestimonialsSection />
         </div>
       </main>
 
