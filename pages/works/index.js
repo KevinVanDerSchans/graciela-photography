@@ -1,15 +1,13 @@
 import React from "react";
-import Header from "../../src/components/Header";
+import HeaderTwo from "../../src/components/HeaderTwo";
+import Logo from "../../public/images/temporalLogo.jpg";
 import Collection from "./Collection";
 import Footer from "../../src/components/Footer";
-import Logo from "../../public/images/temporalLogo.jpg";
-
 
 const Works = () => {
-
   return (
     <div className="projects1">
-      <Header
+      <HeaderTwo
         headerLogo={Logo}
       />
 

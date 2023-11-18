@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from "../../src/components/Header";
-import Footer from "../../src/components/Footer";
+import HeaderTwo from "../../src/components/HeaderTwo";
 import Logo from "../../public/images/temporalLogo.jpg";
+import Footer from "../../src/components/Footer";
 
 import BannerSection from './BannerSection';
 import CV from "./CV";
@@ -9,7 +9,7 @@ import CV from "./CV";
 const AboutMe = () => {
   return (
     <>
-      <Header
+      <HeaderTwo
         headerLogo={Logo}
       />
 

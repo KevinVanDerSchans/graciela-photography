@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Header from "../../../src/components/Header";
+import HeaderTwo from "../../../src/components/HeaderTwo";
+import Logo from "../../../public/images/temporalLogo.jpg";
 import Footer from '../../../src/components/Footer';
 
 import PhotoAlbum from "react-photo-album";
@@ -18,14 +19,15 @@ import "yet-another-react-lightbox/plugins/counter.css";
 
 import exteriorImages from "../../../src/data/exteriorImages";
 
-
 function Exterior() {
 
   const [index, setIndex] = useState(-1);
 
   return (
     <div className="masonry">
-      <Header />
+      <HeaderTwo
+        headerLogo={Logo}
+      />
 
       <main className="ms-main single">
         <div className="ms-page-content">
