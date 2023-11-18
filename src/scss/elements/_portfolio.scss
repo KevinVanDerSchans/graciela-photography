@@ -901,7 +901,7 @@ body.index-two[data-footer-effect=on]{
 
                 .title{
                     margin: 16px 0 36px 0;
-                    font-size: 96px;
+                    font-size: 86px;
                     font-weight: bold;
                     line-height: 1.1;
 
@@ -935,8 +935,10 @@ body.index-two[data-footer-effect=on]{
 
             .banner-hero{
                 padding: 10px;
+
                 img{
-                    width: 100%;
+                  width: 90%;
+                  border-radius: 40px;
                 }
             }
         }

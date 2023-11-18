@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 import ServicesBackground from "public/images/collection/animals/6.jpg";
 import PhotographyIcon from "../../public/images/icons/photographyIcon.svg";
-import AdviceIcon from "../../public/images/icons/adviceIcon.svg";
 import PhotoEditingIcon from "../../public/images/icons/photoEditingIcon.svg";
+import AdviceIcon from "../../public/images/icons/adviceIcon.svg";
 
 const ServiceSection = () => {
   return (
@@ -70,7 +70,7 @@ const ServiceSection = () => {
                         <h3 className="ms-sb--title">
                           <span>Photographic advice.</span>
                         </h3>
-                        <p className="ms-sb--text">Professional tips for stunning photos. Elevate your photography with expert advice on composition, lighting, and technique</p>
+                        <p className="ms-sb--text">Professional tips for stunning photos. Elevate your photography with expert advice on composition, lighting, and technique.</p>
                       </div>
                     </div>
                   </div>
