@@ -1626,9 +1626,12 @@ body.index-two[data-footer-effect=on]{
 
                 .services-image{
                     padding: 100px 0;
-                    img{
+
+                    img {
+                        height: 95vh;
                         width: 100%;
                         border-radius: 40px;
+                        object-fit: cover;
                     }
                 }
 

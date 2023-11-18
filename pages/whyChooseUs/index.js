@@ -3,6 +3,8 @@ import Header from "../../src/components/Header";
 import Footer from "../../src/components/Footer";
 import Logo from "../../public/images/temporalLogo.jpg";
 
+import ServiceSection from "./ServiceSection";
+
 const WhyChooseUs = () => {
   return (
 
@@ -10,6 +12,13 @@ const WhyChooseUs = () => {
       <Header
         headerLogo={Logo}
       />
+
+      <main className="ms-main">
+        <div className="ms-page-content">
+          <ServiceSection />
+
+        </div>
+      </main>
 
       <Footer />
     </div>
