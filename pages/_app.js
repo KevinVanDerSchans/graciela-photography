@@ -2,10 +2,11 @@ import { useRouter } from 'next/router';
 import SwiperCore, { Navigation, Pagination, Parallax } from 'swiper';
 
 import Home from '../pages/home';
-import Contact from '../pages/contact';
-import Faq from "../pages/faq";
-
 import Works from '../pages/works'
+import WhyChooseUs from "../pages/whyChooseUs";
+import Faq from "../pages/faq";
+import Contact from '../pages/contact';
+
 import PersonalSessions from '../pages/worksDetails/PersonalSessions';
 import Fitness from "../pages/worksDetails/Fitness";
 import Animals from "../pages/worksDetails/Animals";
@@ -16,10 +17,8 @@ import Babies from "../pages/worksDetails/Babies";
 import Exterior from "../pages/worksDetails/Exterior";
 import Dance from "../pages/worksDetails/Dance";
 
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery/dist/jquery.min.js';
-
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import 'swiper/scss/pagination';
@@ -31,7 +30,6 @@ import "../src/scss/style.scss";
 
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
-
 function Layout ({ children }) {
   const router = useRouter();
 
@@ -40,6 +38,9 @@ function Layout ({ children }) {
 
   } else if (router.pathname === '/works') {
     return <Works />;
+
+  } else if (router.pathname === '/whyChooseUs') {
+    return <WhyChooseUs />;
 
   } else if (router.asPath === '/works/personal-sessions') {
     return <PersonalSessions />
