@@ -7,6 +7,7 @@ import AboutMe from "../pages/aboutMe";
 import WhyChooseUs from "../pages/whyChooseUs";
 import Faq from "../pages/faq";
 import Contact from '../pages/contact';
+import ErrorPage from "../pages/404";
 
 import PersonalSessions from '../pages/worksDetails/PersonalSessions';
 import Fitness from "../pages/worksDetails/Fitness";
@@ -78,6 +79,9 @@ function Layout ({ children }) {
 
   } else if (router.pathname === '/contact') {
     return <Contact />;
+
+  }  else if (router.pathname === '/404') {
+    return <ErrorPage />;
   }
 
   return <div>{children}</div>
