@@ -1,8 +1,6 @@
 import React from "react";
-
 import Header from "../../src/components/Header";
 import HomeSlider from "./SliderSection";
-
 import Logo from "../../public/images/temporalLogo.jpg"
 
 const Home = () => {

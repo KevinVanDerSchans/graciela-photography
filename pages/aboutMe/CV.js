@@ -15,7 +15,7 @@ const CV = () => {
         <div className="row">
           <div className="col-lg-5">
             <div className="image-left-side">
-              <Image src={gracielaCVImage} alt="CV" />
+              <Image src={gracielaCVImage} alt="Graciela experience" />
             </div>
           </div>
 
@@ -47,7 +47,7 @@ const CV = () => {
                       <div className="ms-sb img-top">
 
                         <div className="ms-sb--img default">
-                          <Image src={PhotographyIcon} className="attachment-full size-full" alt="icon" />
+                          <Image src={PhotographyIcon} className="attachment-full size-full" alt="Photography" />
                         </div>
 
                         <div className="ms-sb--inner">
@@ -65,7 +65,7 @@ const CV = () => {
                       <div className="ms-sb img-top">
 
                         <div className="ms-sb--img default">
-                          <Image src={PhotoEditingIcon} className="attachment-full size-full" alt="icon" />
+                          <Image src={PhotoEditingIcon} className="attachment-full size-full" alt="Photo editing" />
                         </div>
 
                         <div className="ms-sb--inner">
@@ -83,7 +83,7 @@ const CV = () => {
                       <div className="ms-sb img-top">
 
                         <div className="ms-sb--img default">
-                          <Image src={AdviceIcon} className="attachment-full size-full" alt="icon" />
+                          <Image src={AdviceIcon} className="attachment-full size-full" alt="Advice" />
                         </div>
 
                         <div className="ms-sb--inner">

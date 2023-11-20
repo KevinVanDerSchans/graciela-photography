@@ -93,7 +93,6 @@ function Animals() {
                           setIndex(index)}
                       />
 
-
                       <Lightbox
                         slides={animalsImages}
                         alt="Animals collection"

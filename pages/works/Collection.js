@@ -1,13 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-
-import works from '../../src/data/Works.json';
-
+import { Tabs, TabPanel } from 'react-tabs';
 
 const Collection = () => {
-
   return (
     <>
       <div className="ms-portfolio-filter-area main-isotop project">
@@ -16,160 +12,152 @@ const Collection = () => {
           <Tabs>
             <div className="portfolio_wrap style-1">
               <div className="filter portfolio-feed">
-
                 <TabPanel className="row">
 
-                    {/* Personal Sessions */}
-                      <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
-                        <div className="item--inner">
+                  {/* Personal Sessions */}
+                  <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                    <div className="item--inner">
 
-                          <Link href="/works/personal-sessions" aria-label="Personal Sessions">
-                            <div className="ms-p-content">
-                              <h3>Personal Sessions</h3>
-                            </div>
-
-                            <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                              <Image decoding="async" src="/images/collection/personal-sessions.jpg" alt="Personal Sessions" width={800} height={600} />
-                            </figure>
-                          </Link>
+                      <Link href="/works/personal-sessions" aria-label="Personal Sessions">
+                        <div className="ms-p-content">
+                          <h3>Personal Sessions</h3>
                         </div>
-                      </div>
 
-                    {/* Fitness */}
-                      <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
-                        <div className="item--inner">
+                        <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                          <Image decoding="async" src="/images/collection/personal-sessions.jpg" alt="Personal Sessions" width={800} height={600} />
+                        </figure>
+                      </Link>
+                    </div>
+                  </div>
 
-                          <Link href="/works/fitness" aria-label="Fitness">
-                            <div className="ms-p-content">
-                              <h3>Fitness</h3>
-                            </div>
+                  {/* Fitness */}
+                  <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                    <div className="item--inner">
 
-                            <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                              <Image decoding="async" src="/images/collection/fitness.jpg" alt="Personal Sessions" width={800} height={600} />
-                            </figure>
-                          </Link>
+                      <Link href="/works/fitness" aria-label="Fitness">
+                        <div className="ms-p-content">
+                          <h3>Fitness</h3>
                         </div>
-                      </div>
 
-                    {/* Animals */}
-                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
-                      <div className="item--inner">
-
-                        <Link href="/works/animals" aria-label="Animals">
-                          <div className="ms-p-content">
-                            <h3>Animals</h3>
-                          </div>
-
-                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                            <Image decoding="async" src="/images/collection/animals.jpg" alt="Animals" width={800} height={600} />
-                          </figure>
-                        </Link>
-                      </div>
+                        <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                          <Image decoding="async" src="/images/collection/fitness.jpg" alt="Fitness" width={800} height={600} />
+                        </figure>
+                      </Link>
                     </div>
+                  </div>
 
-                    {/* Pre-weddings */}
-                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
-                      <div className="item--inner">
+                  {/* Animals */}
+                  <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                    <div className="item--inner">
 
-                        <Link href="/works/pre-weddings" aria-label="Pre-weddings">
-                          <div className="ms-p-content">
-                            <h3>Pre-weddings</h3>
-                          </div>
+                      <Link href="/works/animals" aria-label="Animals">
+                        <div className="ms-p-content">
+                          <h3>Animals</h3>
+                        </div>
 
-                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                            <Image decoding="async" src="/images/collection/pre-weddings.jpg" alt="Pre-weddings" width={800} height={600} />
-                          </figure>
-                        </Link>
-                      </div>
+                        <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                          <Image decoding="async" src="/images/collection/animals.jpg" alt="Animals" width={800} height={600} />
+                        </figure>
+                      </Link>
                     </div>
+                  </div>
 
+                  {/* Pre-weddings */}
+                  <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                    <div className="item--inner">
 
-                    {/* Weddings */}
-                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
-                      <div className="item--inner">
+                      <Link href="/works/pre-weddings" aria-label="Pre-weddings">
+                        <div className="ms-p-content">
+                          <h3>Pre-weddings</h3>
+                        </div>
 
-                        <Link href="/works/weddings" aria-label="Weddings">
-                          <div className="ms-p-content">
-                            <h3>Weddings</h3>
-                          </div>
-
-                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                            <Image decoding="async" src="/images/collection/weddings.jpg" alt="Weddings" width={800} height={600} />
-                          </figure>
-                        </Link>
-                      </div>
+                        <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                          <Image decoding="async" src="/images/collection/pre-weddings.jpg" alt="Pre-weddings" width={800} height={600} />
+                        </figure>
+                      </Link>
                     </div>
+                  </div>
 
+                  {/* Weddings */}
+                  <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                    <div className="item--inner">
 
-                    {/* Pregnant */}
-                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
-                      <div className="item--inner">
+                      <Link href="/works/weddings" aria-label="Weddings">
+                        <div className="ms-p-content">
+                          <h3>Weddings</h3>
+                        </div>
 
-                        <Link href="/works/pregnant" aria-label="Pregnant">
-                          <div className="ms-p-content">
-                            <h3>Pregnant</h3>
-                          </div>
-
-                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                            <Image decoding="async" src="/images/collection/pregnant.jpg" alt="Pregnant" width={800} height={600} />
-                          </figure>
-                        </Link>
-                      </div>
+                        <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                          <Image decoding="async" src="/images/collection/weddings.jpg" alt="Weddings" width={800} height={600} />
+                        </figure>
+                      </Link>
                     </div>
+                  </div>
 
+                  {/* Pregnant */}
+                  <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                    <div className="item--inner">
 
-                    {/* Babies */}
-                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
-                      <div className="item--inner">
+                      <Link href="/works/pregnant" aria-label="Pregnant">
+                        <div className="ms-p-content">
+                          <h3>Pregnant</h3>
+                        </div>
 
-                        <Link href="/works/babies" aria-label="Babies">
-                          <div className="ms-p-content">
-                            <h3>Babies</h3>
-                          </div>
-
-                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                            <Image decoding="async" src="/images/collection/babies.jpg" alt="Babies" width={800} height={600} />
-                          </figure>
-                        </Link>
-                      </div>
+                        <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                          <Image decoding="async" src="/images/collection/pregnant.jpg" alt="Pregnant" width={800} height={600} />
+                        </figure>
+                      </Link>
                     </div>
+                  </div>
 
+                  {/* Babies */}
+                  <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                    <div className="item--inner">
 
-                    {/* Exterior */}
-                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
-                      <div className="item--inner">
+                      <Link href="/works/babies" aria-label="Babies">
+                        <div className="ms-p-content">
+                          <h3>Babies</h3>
+                        </div>
 
-                        <Link href="/works/exterior" aria-label="Exterior">
-                          <div className="ms-p-content">
-                            <h3>Exterior</h3>
-                          </div>
-
-                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                            <Image decoding="async" src="/images/collection/exterior.jpg" alt="Exterior" width={800} height={600} />
-                          </figure>
-                        </Link>
-                      </div>
+                        <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                          <Image decoding="async" src="/images/collection/babies.jpg" alt="Babies" width={800} height={600} />
+                        </figure>
+                      </Link>
                     </div>
+                  </div>
 
+                  {/* Exterior */}
+                  <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                    <div className="item--inner">
 
-                    {/* Dance */}
-                    <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
-                      <div className="item--inner">
+                      <Link href="/works/exterior" aria-label="Exterior">
+                        <div className="ms-p-content">
+                          <h3>Exterior</h3>
+                        </div>
 
-                        <Link href="/works/dance" aria-label="Dance">
-                          <div className="ms-p-content">
-                            <h3>Dance</h3>
-                          </div>
-
-                          <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                            <Image decoding="async" src="/images/collection/dance.jpg" alt="Dance" width={800} height={600} />
-                          </figure>
-                        </Link>
-                      </div>
+                        <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                          <Image decoding="async" src="/images/collection/exterior.jpg" alt="Exterior" width={800} height={600} />
+                        </figure>
+                      </Link>
                     </div>
+                  </div>
 
+                  {/* Dance */}
+                  <div className="flash grid-item-p element-item transition creative col-md-4" data-category="transition">
+                    <div className="item--inner">
+
+                      <Link href="/works/dance" aria-label="Dance">
+                        <div className="ms-p-content">
+                          <h3>Dance</h3>
+                        </div>
+
+                        <figure className="ms-p-img media-wrapper media-wrapper--4:4">
+                          <Image decoding="async" src="/images/collection/dance.jpg" alt="Dance" width={800} height={600} />
+                        </figure>
+                      </Link>
+                    </div>
+                  </div>
                 </TabPanel>
-
               </div>
             </div>
           </Tabs>

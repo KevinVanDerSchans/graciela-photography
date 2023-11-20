@@ -22,7 +22,7 @@ const TestimonialsSection = () => {
 
                   <div className="author">
                     <div className="author-image">
-                      <Image src={CarmenAvatar} alt="" />
+                      <Image src={CarmenAvatar} alt="Avatar" />
                     </div>
                     <div className="author-details">
                       <h2 className="name">Carmen Olmedo</h2>
@@ -40,7 +40,7 @@ const TestimonialsSection = () => {
 
                   <div className="author">
                     <div className="author-image">
-                      <Image src={FranciscaAvatar} alt="" />
+                      <Image src={FranciscaAvatar} alt="Avatar" />
                     </div>
                     <div className="author-details">
                       <h2 className="name">Francisca Andrades</h2>
@@ -58,7 +58,7 @@ const TestimonialsSection = () => {
 
                   <div className="author">
                     <div className="author-image">
-                      <Image src={SantiAvatar} alt="" />
+                      <Image src={SantiAvatar} alt="Avatar" />
                     </div>
                     <div className="author-details">
                       <h2 className="name">Santi González</h2>
