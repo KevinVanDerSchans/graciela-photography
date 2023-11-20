@@ -85,7 +85,7 @@ const HeaderTwo = (props) => {
                 <div className="ms_theme_mode">
                   <div className="ms_tm--inner">
                     <div className="theme-toggle" id="theme-toggle" onClick={() => { setDarkMode(!darkMode); }} >
-                      <input type="checkbox" id="switcher" className="check" checked={darkMode} aria-label='Toggle theme' role="Toggle theme"/>
+                      <input type="checkbox" id="switcher" className="check" defaultChecked={darkMode} aria-label='Toggle theme' />
                         <svg className="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
                           <title>Change theme</title>
                         <mask className="moon" id="moon-mask">
