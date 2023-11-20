@@ -25,7 +25,7 @@ const ServiceSection = () => {
               </div>
             </div>
             <div className="services-image">
-              <Image src={ServicesBackground} alt="image"/>
+              <Image src={ServicesBackground} alt="Why choose us?"/>
             </div>
 
             <div className="services-bottom">
@@ -36,7 +36,7 @@ const ServiceSection = () => {
                   <div className="col-lg-4 text-center">
                     <div className="ms-sb img-top">
                       <div className="ms-sb--img boxed margin-x-auto five">
-                        <Image src={PhotographyIcon} alt="image"/>
+                        <Image src={PhotographyIcon} alt="Photography"/>
                       </div>
                       <div className="ms-sb--inner">
                         <h3 className="ms-sb--title">
@@ -50,7 +50,7 @@ const ServiceSection = () => {
                   <div className="col-lg-4 text-center">
                     <div className="ms-sb img-top">
                       <div className="ms-sb--img boxed margin-x-auto five">
-                        <Image src={PhotoEditingIcon} alt="image"/>
+                        <Image src={PhotoEditingIcon} alt="Photo Editing"/>
                       </div>
                       <div className="ms-sb--inner">
                         <h3 className="ms-sb--title">
@@ -64,7 +64,7 @@ const ServiceSection = () => {
                   <div className="col-lg-4 text-center">
                     <div className="ms-sb img-top">
                       <div className="ms-sb--img boxed margin-x-auto five">
-                        <Image src={AdviceIcon} alt="image"/>
+                        <Image src={AdviceIcon} alt="Advice"/>
                       </div>
                       <div className="ms-sb--inner">
                         <h3 className="ms-sb--title">

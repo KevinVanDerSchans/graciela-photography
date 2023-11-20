@@ -9,11 +9,10 @@ SwiperCore.use([Mousewheel]);
 
 import homeTemporalImage from "../../public/images/slider/homeTemporalImage.jpg";
 import worksTemporalImage from "../../public/images/slider/worksTemporalImage.jpg";
-import myServicesTemporalImage from "../../public/images/slider/myServicesTemporalImage.jpg";
+import whyChooseUsTemporalImage from "../../public/images/slider/whyChooseUsTemporalImage.jpg";
 import faqTemporalImage from "../../public/images/slider/faqTemporalImage.jpg";
 import aboutMeTemporalImage from "../../public/images/slider/aboutMeTemporalImage.jpg";
 import contactTemporalImage from "../../public/images/slider/contactTemporalImage.jpg";
-
 
 const sliderOption = {
   pagination: {
@@ -56,7 +55,7 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={homeTemporalImage} alt="full_screen-image" />
+                <Image src={homeTemporalImage} alt="Home" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
 
@@ -83,7 +82,7 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={worksTemporalImage} alt="full_screen-image" />
+                <Image src={worksTemporalImage} alt="Works" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
                       <p className="tag">DISCOVER MY</p>
@@ -138,7 +137,7 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={aboutMeTemporalImage} alt="full_screen-image" />
+                <Image src={aboutMeTemporalImage} alt="About Me" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
                       <p className="tag">Find out more</p>
@@ -192,7 +191,7 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={myServicesTemporalImage} alt="full_screen-image" />
+                <Image src={whyChooseUsTemporalImage} alt="Why choose us?" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
                       <p className="tag">Why</p>
@@ -244,7 +243,7 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={faqTemporalImage} alt="full_screen-image" />
+                <Image src={faqTemporalImage} alt="FAQ" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
                       <p className="tag">Do you have any questions?</p>
@@ -298,7 +297,7 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={contactTemporalImage} alt="full_screen-image" />
+                <Image src={contactTemporalImage} alt="Contact" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
                       <Link

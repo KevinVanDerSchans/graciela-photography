@@ -69,13 +69,13 @@ const Header = (props) => {
 
 								<div className="logo-dark">
 									<Link href="/">
-										<Image src={headerLogo ? headerLogo : Logo} alt="Most" />
+										<Image src={headerLogo ? headerLogo : Logo} alt="Graciela Logo" />
 									</Link>
 								</div>
 
 								<div className="logo-light">
 									<Link href="/">
-										<Image src={headerLogoLight ? headerLogoLight : LogoLight} alt="Most" />
+										<Image src={headerLogoLight ? headerLogoLight : LogoLight} alt="Graciela Logo" />
 									</Link>
 								</div>
 							</div>
@@ -87,35 +87,36 @@ const Header = (props) => {
               </nav>
 
               <div className="menuTrigger"></div>
-
-              <div className="main-header--widgets">
-                <div className="ms_theme_mode">
-                  <div className="ms_tm--inner">
-
-                    <div className="theme-toggle" id="theme-toggle" onClick={() => { setDarkMode(!darkMode); }}>
-                      <input type="checkbox" id="switcher" className="check" defaultChecked="" />
-                        <svg className="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
-                          <mask className="moon" id="moon-mask">
-                            <rect x="0" y="0" width="100%" height="100%" fill="white"></rect>
-                            <circle cx="24" cy="10" r="6" fill="black"></circle>
-                          </mask>
-                          <circle className="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor">
-                          </circle>
-                          <g className="sun-beams" stroke="currentColor">
-                            <line x1="12" y1="1" x2="12" y2="3"></line>
-                            <line x1="12" y1="21" x2="12" y2="23"></line>
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                            <line x1="1" y1="12" x2="3" y2="12"></line>
-                            <line x1="21" y1="12" x2="23" y2="12"></line>
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                          </g>
-                        </svg>
+                <div className="main-header--widgets">
+                  <div className="menuTrigger"></div>
+                    <div className="main-header--widgets">
+                      <div className="ms_theme_mode">
+                        <div className="ms_tm--inner">
+                          <div className="theme-toggle" id="theme-toggle" onClick={() => { setDarkMode(!darkMode); }} >
+                            <input type="checkbox" id="switcher" className="check" checked={darkMode} aria-label='Toggle theme' role="Toggle theme"/>
+                              <svg className="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                                <title>Change theme</title>
+                              <mask className="moon" id="moon-mask">
+                                <rect x="0" y="0" width="100%" height="100%" fill="white"></rect>
+                                <circle cx="24" cy="10" r="6" fill="black"></circle>
+                              </mask>
+                              <circle className="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor"></circle>
+                              <g className="sun-beams" stroke="currentColor">
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
                 </div>
-              </div>
 
               <button className="main-header__nav-trigger js-main-header__nav-trigger menu-default" aria-label="Toggle menu" aria-expanded={menuOpen ? 'true' : 'false'} aria-controls="main-header-nav" onClick={() => {setMenuOpen(!menuOpen)}}>
 								<span>Menu</span>
