@@ -104,7 +104,7 @@ const HomeSlider = () => {
                       <Link
                         href="/works"
                         className="btn btn-circle btn--md"
-                        role="button"
+                        aria-label="button"
                       >
                         <div className="ms-btn--circle">
                           <div className="circle">
@@ -160,7 +160,7 @@ const HomeSlider = () => {
                     <Link
                         href="/aboutMe"
                         className="btn btn-circle btn--md"
-                        role="button"
+                        aria-label="button"
                       >
                         <div className="ms-btn--circle">
                           <div className="circle">
@@ -212,7 +212,7 @@ const HomeSlider = () => {
                       <Link
                         href="/whyChooseUs"
                         className="btn btn-circle btn--md"
-                        role="button"
+                        aria-label="button"
                       >
                         <div className="ms-btn--circle">
                           <div className="circle">
@@ -266,7 +266,7 @@ const HomeSlider = () => {
                       <Link
                         href="/faq"
                         className="btn btn-circle btn--md"
-                        role="button"
+                        aria-label="button"
                       >
                         <div className="ms-btn--circle">
                           <div className="circle">
@@ -319,7 +319,7 @@ const HomeSlider = () => {
                     <Link
                         href="/contact"
                         className="btn btn-circle btn--md"
-                        role="button"
+                        aria-label="button"
                       >
                         <div className="ms-btn--circle">
                           <div className="circle">
@@ -348,9 +348,9 @@ const HomeSlider = () => {
           </Swiper>
 
           <div className="swiper-button-wrapper">
-            <div className="swiper-button-next" tabIndex="0" role="button" aria-label="Next slide">
+            <div className="swiper-button-next" tabIndex="0" aria-label="Next slide">
             </div>
-            <div className="swiper-button-prev" tabIndex="0" role="button" aria-label="Previous slide">
+            <div className="swiper-button-prev" tabIndex="0" aria-label="Previous slide">
             </div>
           </div>
 
