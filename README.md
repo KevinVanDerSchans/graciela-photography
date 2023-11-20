@@ -50,20 +50,15 @@ Graciela's photography is a **responsive** website for a professional photograph
 
 - **Home**
 
-<br>
-
 A **hero slider** with 6 slides gives users a preview and demonstration of the main content available on the page.
 
 <br>
 
 - **Works**
 
-<br>
-
 This section presents a comprehensive collection of **photo galleries**, including *Personal Sessions*, *Fitness*, *Animals*, *Pre-weddings*, *Weddings*, *Pregnant*, *Babies*, *Exterior*, and *Dance*.
 
 When users click on any photo within a collection, it opens in a *Lightbox* view with the following functionalities:
-
 
 • Display of the current photo number.
 <br>
@@ -81,23 +76,17 @@ When users click on any photo within a collection, it opens in a *Lightbox* view
 
 - **About Me**
 
-<br>
-
 Explore **Graciela's portfolio**, which features a brief personal description, her background, the services she offers and a component guiding users to explore the **Works** section.
 
 <br>
 
 - **Why choose us?**
 
-<br>
-
 This section is dedicated to persuading potential customers. It includes details about the services offered, real customer reviews/testimonials, and once again, a component guiding users to the **Works** section.
 
 <br>
 
 - **FAQ**
-
-<br>
 
 This section compiles commonly asked questions and their corresponding answers, aiming to streamline and simplify interactions for the photographer.
 <br>
@@ -107,8 +96,6 @@ If clients still have additional questions, a **Contact** form is available at t
 
 - **Contact**
 
-<br>
-
 A contact form is provided for direct communication with the client. Additionally, the photographer's contact information and a map with the location are included.
 
 <br>
@@ -116,8 +103,11 @@ A contact form is provided for direct communication with the client. Additionall
 
 In addition, the website offers the following functionalities:
 
-- **Theme Switch (Light/Dark)**
 <br>
+
+
+- **Theme Switch (Light/Dark)**
+
 The navbar features an icon allowing users to switch between light and dark themes on the page.
 
 <br>
