@@ -37,11 +37,11 @@ function Pregnant() {
                 <div className="row top">
 
                   <div className="col-lg-6">
-                    <h1 className="heading-title">Pregnant</h1>
+                    <h1 className="heading-title">Embarazo</h1>
                   </div>
 
                   <div className="col-lg-6">
-                    <p className="desc">Each image celebrates life in the making and the joy of motherhood-to-be. We invite you to explore the beauty and anticipation of motherhood through our expert lens.</p>
+                    <p className="desc">Te invitamos a disfrutar la alegría, explorar la belleza y la anticipación de la maternidad a través de nuestra lente.</p>
                   </div>
                 </div>
 
@@ -84,7 +84,7 @@ function Pregnant() {
 
                       <PhotoAlbum
                         photos={pregnantImages}
-                        alt="Pregnant collection"
+                        alt="Embarazo colección"
                         targetRowHeight={350}
                         layout="rows"
 
@@ -96,7 +96,7 @@ function Pregnant() {
 
                       <Lightbox
                         slides={pregnantImages}
-                        alt="Pregnant collection"
+                        alt="Embarazo colección"
 
                         open={index >= 0}
                         index={index}
@@ -135,16 +135,16 @@ function Pregnant() {
                           <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"></path>
                         </g>
                       </svg>
-                      <h3>Next Project</h3>
+                      <h3>Siguiente sesión</h3>
                     </div>
 
-                    <h1>Babies</h1>
+                    <h1>Recién nacidos</h1>
                   </Link>
                 </div>
 
                 <div className="col-md-6">
                   <Link href="/works/babies" className="ms-spn--thumb">
-                    <Image src="/images/collection/babies.jpg" alt="Babies collection" width={800} height={600} />
+                    <Image src="/images/collection/babies.jpg" alt="Recién nacidos colección" width={800} height={600} />
                   </Link>
                 </div>
               </div>

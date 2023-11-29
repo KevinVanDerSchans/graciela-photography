@@ -37,11 +37,11 @@ function Babies() {
                 <div className="row top">
 
                   <div className="col-lg-6">
-                    <h1 className="heading-title">Babies</h1>
+                    <h1 className="heading-title">Recién nacidos</h1>
                   </div>
 
                   <div className="col-lg-6">
-                    <p className="desc">Each image is a reflection of the joy, curiosity and natural beauty of babies. Explore the sweetness and innocence of childhood through our baby pictures section.</p>
+                    <p className="desc">Cada imagen es un reflejo de la alegría, la curiosidad y la belleza natural de los bebés. Explore la dulzura y la inocencia de la infancia.</p>
                   </div>
                 </div>
 
@@ -84,7 +84,7 @@ function Babies() {
 
                       <PhotoAlbum
                         photos={babiesImages}
-                        alt="Babies collection"
+                        alt="Recién nacidos colección"
                         targetRowHeight={350}
                         layout="rows"
 
@@ -96,7 +96,7 @@ function Babies() {
 
                       <Lightbox
                         slides={babiesImages}
-                        alt="Babies collection"
+                        alt="Recién nacidos colección"
 
                         open={index >= 0}
                         index={index}
@@ -135,7 +135,7 @@ function Babies() {
                           <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"></path>
                         </g>
                       </svg>
-                      <h3>Next Project</h3>
+                      <h3>Siguiente sesión</h3>
                     </div>
 
                     <h1>Exterior</h1>
@@ -144,7 +144,7 @@ function Babies() {
 
                 <div className="col-md-6">
                   <Link href="/works/exterior" className="ms-spn--thumb">
-                    <Image src="/images/collection/exterior.jpg" alt="Exterior collection" width={800} height={600} />
+                    <Image src="/images/collection/exterior.jpg" alt="Exterior colección" width={800} height={600} />
                   </Link>
                 </div>
               </div>

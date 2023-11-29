@@ -21,13 +21,13 @@ function Contact() {
                   <div className="col-lg-6">
 
                     <div className="content">
-                      <h2 className="title">Are you up <br/> for a PHOTO SHOOT?</h2>
-                      <p className="desc">Feel free to share your ideas and questions with me... I am here to help you! I am excited to learn more about the ideas you have in mind, and I will do my best to get back to you as soon as possible!</p>
+                      <h2 className="title">¿Te animas a un <br/> PHOTO SHOOT?</h2>
+                      <p className="desc">No dude en compartir sus ideas y preguntas conmigo... Estoy aquí para ayudarte. Estoy deseando saber más sobre las ideas que tienes en mente, ¡y haré todo lo posible por responderte lo antes posible!</p>
                     </div>
 
                     <div className="row contact">
                       <ul className="col-lg-6 phone">
-                        <li className="tag">Phone:</li>
+                        <li className="tag">Móvil:</li>
                         <li>
                           <a href="tel:666394150">
                             +34 666 39 41 50
@@ -59,12 +59,11 @@ function Contact() {
 
                   <div className="contact-map-area-fluid">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d801.4114258004773!2d-4.645048230414066!3d36.538541075789816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72e21fd1d0ad39%3A0x1d0c5a7732c427e6!2sC.%20R%C3%ADo%20Velillos%2C%2019-3%2C%2029651%20Fuengirola%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1700135042053!5m2!1ses!2ses"
                       className="contact-map"
-                      allowFullScreen=""
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d51284.21336635254!2d-4.635928!3d36.54776300000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72e222251b495f%3A0xbdcce2fdcf15f978!2s29651%20Las%20Lagunas%20de%20Mijas%2C%20M%C3%A1laga!5e0!3m2!1ses!2ses!4v1701262444334!5m2!1ses!2ses"
+                      allowfullscreen=""
                       loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                    >
+                      referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                   </div>
                 </div>

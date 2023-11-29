@@ -11,7 +11,7 @@ const Footer = (props) => {
 
         <section className="container footer-container" data-parallax="on">
           <div className="footer-title text-center">
-            <h1>Are you up for a<strong></strong> <br/> <strong>PHOTO SHOOT?</strong> <Link href="/contact" className="btn-footer">Let&apos;s Talk <i className="fas fa-arrow-right"></i></Link></h1>
+            <h1>¿Te animas a un<strong></strong> <br/> <strong>PHOTO SHOOT?</strong> <Link href="/contact" className="btn-footer">Hablemos <i className="fas fa-arrow-right"></i></Link></h1>
           </div>
 
           <div className="social-area">

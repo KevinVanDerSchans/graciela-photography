@@ -40,7 +40,7 @@ function Fitness() {
                   </div>
 
                   <div className="col-lg-6">
-                    <p className="desc">I capture the dedication, strength and passion of athletes and fitness enthusiasts at their peak.</p>
+                    <p className="desc">Capturo la dedicación, fuerza y pasión de los atletas y entusiastas del fitness en su mejor momento.</p>
                   </div>
                 </div>
 
@@ -83,7 +83,7 @@ function Fitness() {
 
                       <PhotoAlbum
                         photos={fitnessImages}
-                        alt="Fitness collection"
+                        alt="Fitness colección"
                         targetRowHeight={350}
                         layout="rows"
 
@@ -95,7 +95,7 @@ function Fitness() {
 
                       <Lightbox
                         slides={fitnessImages}
-                        alt="Fitness collection"
+                        alt="Fitness colección"
 
                         open={index >= 0}
                         index={index}
@@ -134,16 +134,16 @@ function Fitness() {
                           <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"></path>
                         </g>
                       </svg>
-                      <h3>Next Project</h3>
+                      <h3>Siguiente sesión</h3>
                     </div>
 
-                    <h1>Animals</h1>
+                    <h1>Animales</h1>
                   </Link>
                 </div>
 
                 <div className="col-md-6">
                   <Link href="/works/animals" className="ms-spn--thumb">
-                    <Image src="/images/collection/animals.jpg" alt="Animals collection" width={800} height={600} />
+                    <Image src="/images/collection/animals.jpg" alt="Animales colección" width={800} height={600} />
                   </Link>
                 </div>
               </div>

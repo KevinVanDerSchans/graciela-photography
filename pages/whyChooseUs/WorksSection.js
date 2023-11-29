@@ -12,8 +12,8 @@ const WorksSection = () => {
   return (
     <div className="testimonial-area">
       <div className="container">
-        <h2 className="sub-title">Have you already seen some of </h2>
-        <h2 className="heading-title">our best Works?</h2>
+        <h2 className="sub-title">¿ Has isto ya algunas de nuestras</h2>
+        <h2 className="heading-title"> mejores sesiones ?</h2>
 
         <div className="project-item">
           <div className="row">
@@ -41,10 +41,10 @@ const WorksSection = () => {
                       <div className="item--inner">
                         <Link href="/works/animals" aria-label="Animals">
                           <figure className="ms-p-img media-wrapper media-wrapper--1:1">
-                            <Image decoding="async" src={Animals} alt="Animals" />
+                            <Image decoding="async" src={Animals} alt="Animales" />
                           </figure>
                           <div className="ms-p-content">
-                            <h3>Animals</h3>
+                            <h3>Animales</h3>
                           </div>
                         </Link>
                       </div>
@@ -90,10 +90,10 @@ const WorksSection = () => {
                       <div className="item--inner">
                         <Link href="/works/personal-sessions" aria-label="Personal Sessions">
                           <figure className="ms-p-img media-wrapper media-wrapper--4:3">
-                            <Image decoding="async" src={PersonalSessions} alt="Personal Sessions" />
+                            <Image decoding="async" src={PersonalSessions} alt="Sesiones personales" />
                           </figure>
                           <div className="ms-p-content">
-                            <h3>Personal Sessions</h3>
+                            <h3>Sesiones personales</h3>
                           </div>
                         </Link>
                       </div>
@@ -103,10 +103,10 @@ const WorksSection = () => {
                       <div className="item--inner">
                         <Link href="/works/babies" aria-label="Babies">
                           <figure className="ms-p-img media-wrapper media-wrapper--4:3">
-                            <Image decoding="async" src={Babies} alt="Babies" />
+                            <Image decoding="async" src={Babies} alt="Recién nacidos" />
                           </figure>
                           <div className="ms-p-content">
-                              <h3>Babies</h3>
+                              <h3>Recién nacidos</h3>
                           </div>
                         </Link>
                       </div>
@@ -116,10 +116,10 @@ const WorksSection = () => {
                       <div className="item--inner">
                         <Link href="/works/weddings" aria-label="Weddings">
                           <figure className="ms-p-img media-wrapper media-wrapper--4:3">
-                            <Image decoding="async" src={Exterior} alt="Weddings" />
+                            <Image decoding="async" src={Exterior} alt="Bodas" />
                           </figure>
                           <div className="ms-p-content">
-                            <h3>Weddings</h3>
+                            <h3>Bodas</h3>
                           </div>
                         </Link>
                       </div>

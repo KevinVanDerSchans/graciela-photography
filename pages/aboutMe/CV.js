@@ -15,31 +15,36 @@ const CV = () => {
         <div className="row">
           <div className="col-lg-5">
             <div className="image-left-side">
-              <Image src={gracielaCVImage} alt="Graciela experience" />
+              <Image src={gracielaCVImage} alt="Experiencia de Graciela" />
             </div>
           </div>
 
           <div className="col-lg-7">
             <div className="right-side-content">
-              <h1 className="heading-title">About Me</h1>
+              <h1 className="heading-title">Sobre mi</h1>
               <p>
                 <em>
-                  <span className="cate-color">Argentinian by birth and Spanish at heart, &nbsp;</span> &nbsp;
+                  <span className="cate-color">Argentina de nacimiento y española de corazón &nbsp;</span> &nbsp;
                 </em>
               </p>
               <p className="desc">
-                I&apos;ve always had a deep love for photography.
-                At the age of 10, my parents gifted me my first camera, and ever since, I haven&apos;t stopped capturing the most beautiful moments of my life.
-                Photography allows me to convey all the feelings and emotions that surround me, sharing them with those in my life.
+              Siempre he sentido un profundo amor por la fotografía. A los 10 años, mis padres me regalaron mi primera cámara y, desde entonces, no he parado de capturar los momentos más bonitos de mi vida.
+              <br />
+              <br />
+              Ahora, con <strong>10 años de experiencia</strong> y especializada en fotografía infantil, este trabajo me permite transmitir todos los sentimientos y emociones que me rodean, compartiéndolos con aquellos que forman parte de mi vida.
+              </p>
+
+              <p>
+                Defino mi estilo como <strong>romántico</strong>, <strong>suave</strong>, <strong>cercano</strong> y <strong>familiar</strong>.
               </p>
 
               <p className="desc">
-                Beyond photography, my joy comes from my three daughters and my pack of dogs.
-                Among my hobbies, I relish learning dance and exploring new culinary delights in Malaga.
+                Más allá de la fotografía, mi alegría proviene de mis 3 hijas y mi manada de perros.
+                Entre mis aficiones, me encanta aprender a bailar y probar restaurantes y tartas en Málaga.
               </p>
 
               <div className="services-area">
-                <h2 className="services-title">My Services</h2>
+                <h2 className="services-title">Mis servicios</h2>
                 <div className="services-items">
                   <div className="row">
 
@@ -47,15 +52,15 @@ const CV = () => {
                       <div className="ms-sb img-top">
 
                         <div className="ms-sb--img default">
-                          <Image src={PhotographyIcon} className="attachment-full size-full" alt="Photography" />
+                          <Image src={PhotographyIcon} className="attachment-full size-full" alt="Photografía" />
                         </div>
 
                         <div className="ms-sb--inner">
                           <h4 className="ms-sb--title">
-                            <span>Photography</span>
+                            <span>Fotografía</span>
                           </h4>
                           <p className="ms-sb--text">
-                            Your go-to photographer for timeless moments and quality visuals. Reliability meets creativity in every shot we frame.
+                            Su fotógrafa de confianza para momentos atemporales e imágenes de calidad. La fiabilidad se une a la creatividad en cada toma que encuadramos.
                           </p>
                         </div>
                       </div>
@@ -65,15 +70,15 @@ const CV = () => {
                       <div className="ms-sb img-top">
 
                         <div className="ms-sb--img default">
-                          <Image src={PhotoEditingIcon} className="attachment-full size-full" alt="Photo editing" />
+                          <Image src={PhotoEditingIcon} className="attachment-full size-full" alt="Edición de fotos" />
                         </div>
 
                         <div className="ms-sb--inner">
                           <h4 className="ms-sb--title">
-                            <span>Photo Editing</span>
+                            <span>Edición de fotos</span>
                           </h4>
                           <p className="ms-sb--text">
-                            Refine and enhance your images with our professional photo editing services. Elevate the visual impact of your photos through expert touch-ups, color correction, and creative enhancements.
+                            Perfeccione y mejore sus fotografías. Eleva el impacto visual de tus fotos mediante retoques expertos, corrección del color y mejoras creativas.
                           </p>
                         </div>
                       </div>
@@ -83,15 +88,15 @@ const CV = () => {
                       <div className="ms-sb img-top">
 
                         <div className="ms-sb--img default">
-                          <Image src={AdviceIcon} className="attachment-full size-full" alt="Advice" />
+                          <Image src={AdviceIcon} className="attachment-full size-full" alt="Asesoramiento fotográfico" />
                         </div>
 
                         <div className="ms-sb--inner">
                           <h4 className="ms-sb--title">
-                            <span>Photographic advice</span>
+                            <span>Asesoramiento fotográfico</span>
                           </h4>
                           <p className="ms-sb--text">
-                            Professional tips for stunning photos. Elevate your photography with expert advice on composition, lighting, and technique.
+                            Consejos profesionales para hacer fotos espectaculares. Mejora tu fotografía en aspectos como composición, iluminación y técnica.
                           </p>
                         </div>
                       </div>

@@ -9,15 +9,15 @@ const TestimonialsSection = () => {
   return (
     <div className="testimonial-area">
         <div className="container">
-          <h2 className="sub-title">Testimonials</h2>
-          <h2 className="heading-title">Some Reviews From <br/> Our Clients</h2>
+          <h2 className="sub-title">Testimonios</h2>
+          <h2 className="heading-title">Algunas reseñas de <br/> nuestros clientes</h2>
 
           <div className="testimonial-item">
             <div className="row">
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="testimonial-wraper">
                   <div className="content">
-                    Hiring Graciela was the best decision for our event. Her professional and creative approach really stood out, capturing every moment incredibly well. The photos reflected not only her technical skill, but also her ability to capture genuine emotions. We would recommend her services to anyone!
+                    Contratar a Graciela fue la mejor decisión para nuestro evento. Su enfoque profesional y creativo realmente destacó, capturando cada momento increíblemente bien. Las fotos reflejaron no sólo su habilidad técnica, sino también su capacidad para capturar las emociones. Recomendamos sus servicios a todo el mundo.
                   </div>
 
                   <div className="author">
@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="testimonial-wraper">
                   <div className="content">
-                    Graciela made our special day truly magical. From the initial session to the final delivery of the photos, their professionalism and attention to detail were exceptional. Each image told a story, and their ability to capture the essence of the moment left us speechless. We are grateful for their exceptional services!
+                    Graciela hizo que nuestro día especial fuera realmente mágico. Desde la sesión inicial hasta la entrega final de las fotos, su profesionalidad y atención al detalle fueron excepcionales. Cada imagen contaba una historia, y su habilidad para capturar la esencia del momento nos dejó sin palabras. ¡Estamos muy agradecidos por sus excepcionales servicios!
                   </div>
 
                   <div className="author">
@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
               <div className="col-lg-4 col-md-6 col-12">
                 <div className="testimonial-wraper">
                   <div className="content">
-                    We were thrilled with the photos Graciela took at our session. Her ability to create a relaxed atmosphere and capture authentic moments really shines through in the images. Each photo tells a unique story, and her artistic talent raised our expectations - we will definitely choose her again for future events!
+                    Estamos encantados con las fotos que Graciela tomó en nuestra sesión. Su capacidad para crear un ambiente relajado y capturar momentos auténticos realmente brilla en las imágenes. Cada foto cuenta una historia única, y su talento artístico superó nuestras expectativas, ¡sin duda volveremos a elegirla para futuros eventos!
                   </div>
 
                   <div className="author">

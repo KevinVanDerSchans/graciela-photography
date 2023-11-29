@@ -13,10 +13,11 @@ const BannerSection = () => {
             <div className="row justify-content-center align-items-center">
               <div className="col-lg-6 col-md-6">
                 <div className="banner-content">
-                  <h2 className="heading-title">Hi, I am</h2>
-                  <h2 className="sub-title">Graciela Ares</h2>
-                  <h2 className="title">Photographer </h2>
-                  <p className="desc">I am passionate about immortalizing authentic moments and capturing the unique essence of each person and occasion.
+                  <h2 className="heading-title">¡Hola! Soy</h2>
+                  <h2 className="sub-title">Graciela Delafuente</h2>
+                  <h2 className="title">Fotógrafa </h2>
+                  <p className="desc">
+                    Me apasiona inmortalizar momentos auténticos y captar la esencia única de cada persona y ocasión.
                   </p>
 
                   <div className="ms-social-icon">
@@ -39,7 +40,7 @@ const BannerSection = () => {
 
               <div className="col-lg-6 col-md-6">
                 <div className="banner-hero">
-                  <Image src={GracielaImage} alt="Graciela Ares" />
+                  <Image src={GracielaImage} alt="Graciela Delafuente" />
                 </div>
               </div>
             </div>

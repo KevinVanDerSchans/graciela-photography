@@ -8,8 +8,8 @@ function ErrorPage() {
 
       <section className="ms-page-content ms-404-page">
         <div className="ms-404--content">
-          <h2>Whoops, that page is gone.</h2>
-          <p>The page you are looking for does not exist. <br /></p>
+          <h2>La página que busca no existe.</h2>
+          <p> <br /></p>
         </div>
 
         <div className="ms-404--bg">

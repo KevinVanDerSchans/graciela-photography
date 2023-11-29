@@ -2,12 +2,12 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="es">
       <Head>
         <meta charset="UTF-8" />
         <meta name="description" content="Graciela photography" />
         <meta name="author" content="Kevin van der Schans Delgado" />
-        <meta name="language" content="en" />
+        <meta name="language" content="es" />
         <meta name="keywords" content="Photography, fotografía, Málaga" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Graciela Photography</title>

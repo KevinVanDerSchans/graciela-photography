@@ -15,34 +15,34 @@ const ServiceSection = () => {
             <div className="row">
               <div className="col-lg-6 col-md-12">
                 <div className="left-side-content">
-                  <h2 className="heading-title">Why choose us?</h2>
+                  <h2 className="heading-title">¿Por qué eleginos?</h2>
                 </div>
               </div>
               <div className="col-lg-6 col-md-6">
                 <div className="right-side-content">
-                  <h2 className="desc">Authentic testimonials, collaborations with Málaga brands and a wide range of specialized services.</h2>
+                  <h2 className="desc">Testimonios auténticos y una amplia gama de servicios especializados.</h2>
                 </div>
               </div>
             </div>
             <div className="services-image">
-              <Image src={ServicesBackground} alt="Why choose us?"/>
+              <Image src={ServicesBackground} alt="¿Por qué elegirnos?"/>
             </div>
 
             <div className="services-bottom">
-              <h2 className="heading-title text-center">Our services</h2>
+              <h2 className="heading-title text-center">Nuestros servicios</h2>
               <div className="services-item">
                 <div className="row">
 
                   <div className="col-lg-4 text-center">
                     <div className="ms-sb img-top">
                       <div className="ms-sb--img boxed margin-x-auto five">
-                        <Image src={PhotographyIcon} alt="Photography"/>
+                        <Image src={PhotographyIcon} alt="Fotografía"/>
                       </div>
                       <div className="ms-sb--inner">
                         <h3 className="ms-sb--title">
-                          <span>Photography</span>
+                          <span>Fotografía</span>
                         </h3>
-                        <p className="ms-sb--text">Your go-to photographer for timeless moments and quality visuals. Reliability meets creativity in every shot we frame.</p>
+                        <p className="ms-sb--text">Su fotógrafa de confianza para momentos atemporales e imágenes de calidad. <br />La fiabilidad se une a la creatividad en cada toma que encuadramos.</p>
                       </div>
                     </div>
                   </div>
@@ -50,13 +50,13 @@ const ServiceSection = () => {
                   <div className="col-lg-4 text-center">
                     <div className="ms-sb img-top">
                       <div className="ms-sb--img boxed margin-x-auto five">
-                        <Image src={PhotoEditingIcon} alt="Photo Editing"/>
+                        <Image src={PhotoEditingIcon} alt="Edición de fotos"/>
                       </div>
                       <div className="ms-sb--inner">
                         <h3 className="ms-sb--title">
-                          <span>Photo Editing</span>
+                          <span>Edición de fotos</span>
                         </h3>
-                        <p className="ms-sb--text">Refine and enhance your images with our professional photo editing services. Elevate the visual impact of your photos through expert touch-ups, color correction, and creative enhancements.</p>
+                        <p className="ms-sb--text">Perfeccione y mejore sus fotografías. Eleva el impacto visual de tus fotos mediante retoques expertos, corrección del color y mejoras creativas.</p>
                       </div>
                     </div>
                   </div>
@@ -64,13 +64,13 @@ const ServiceSection = () => {
                   <div className="col-lg-4 text-center">
                     <div className="ms-sb img-top">
                       <div className="ms-sb--img boxed margin-x-auto five">
-                        <Image src={AdviceIcon} alt="Advice"/>
+                        <Image src={AdviceIcon} alt="Asesoramiento fotográfico"/>
                       </div>
                       <div className="ms-sb--inner">
                         <h3 className="ms-sb--title">
-                          <span>Photographic advice.</span>
+                          <span>Asesoramiento fotográfico</span>
                         </h3>
-                        <p className="ms-sb--text">Professional tips for stunning photos. Elevate your photography with expert advice on composition, lighting, and technique.</p>
+                        <p className="ms-sb--text">Consejos profesionales para hacer fotos espectaculares. Mejora tu fotografía en aspectos como composición, iluminación y técnica.</p>
                       </div>
                     </div>
                   </div>

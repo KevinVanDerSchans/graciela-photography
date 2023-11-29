@@ -15,7 +15,7 @@ const Works = () => {
         <div className="container">
             <div className="row align-items-end banner">
                 <div className="col-lg-8 breadcrumb-1">
-                    <h2 className="heading-title">EXPLORE MY <br/> COLLECTION</h2>
+                    <h2 className="heading-title">EXPLORA MI <br/> COLECCIÓN</h2>
                 </div>
                 <div className="col-lg-4">
                     <p className="desc"></p>
