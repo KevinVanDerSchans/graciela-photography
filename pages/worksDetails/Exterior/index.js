@@ -41,7 +41,7 @@ function Exterior() {
                   </div>
 
                   <div className="col-lg-6">
-                    <p className="desc">Each image is an expression of personality, emotion and connection to the environment. Explore the authenticity and beauty of personal outdoor sessions through our photography section.</p>
+                    <p className="desc">Expresión de personalidad, emoción y conexión con el entorno. Explora la autenticidad y la belleza de las sesiones personales en el exterior.</p>
                   </div>
                 </div>
 
@@ -84,7 +84,7 @@ function Exterior() {
 
                       <PhotoAlbum
                         photos={exteriorImages}
-                        alt="Exterior collection"
+                        alt="Exterior colección"
                         targetRowHeight={350}
                         layout="rows"
 
@@ -96,7 +96,7 @@ function Exterior() {
 
                       <Lightbox
                         slides={exteriorImages}
-                        alt="Exterior collection"
+                        alt="Exterior colección"
 
                         open={index >= 0}
                         index={index}
@@ -135,16 +135,16 @@ function Exterior() {
                           <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"></path>
                         </g>
                       </svg>
-                      <h3>Next Project</h3>
+                      <h3>Siguiente sesión</h3>
                     </div>
 
-                    <h1>Dance</h1>
+                    <h1>Danza</h1>
                   </Link>
                 </div>
 
                 <div className="col-md-6">
                   <Link href="/works/dance" className="ms-spn--thumb">
-                    <Image src="/images/collection/dance.jpg" alt="Dance collection" width={800} height={600} />
+                    <Image src="/images/collection/dance.jpg" alt="Danza colección" width={800} height={600} />
                   </Link>
                 </div>
               </div>

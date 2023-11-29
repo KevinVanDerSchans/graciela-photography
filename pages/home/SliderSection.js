@@ -55,24 +55,24 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={homeTemporalImage} alt="Home" />
+                <Image src={homeTemporalImage} alt="Inicio" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
 
-                      <p className="tag">Dare to show your</p>
+                      <p className="tag">Atrévete a enseñar tu</p>
                       <Link
                         href="/"
                         className="title">
-                          STORY
+                          HISTORIA
                       </Link>
                     </div>
 
                     <p className="disc">
-                       Do you want to feel special and capture your true <span> </span>
+                       ¿Quieres sentirte especial y capturar <span> </span>
                       <br />
-                       essence in some photos?<span> </span>
+                       tu verdadera esencia en tus fotos?<span> </span>
                       <br />
-                       Let me immortalize your most authentic moments!
+                       ¡Déjame inmortalizar tus momentos más auténticos!
                     </p>
                 </div>
               </div>
@@ -82,22 +82,22 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={worksTemporalImage} alt="Works" />
+                <Image src={worksTemporalImage} alt="Sesiones" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
-                      <p className="tag">DISCOVER MY</p>
+                      <p className="tag">Descubre mis</p>
                       <Link
                         href="/works"
                         className="title">
-                          WORKS
+                          SESIONES
                       </Link>
                     </div>
                     <p className="disc">
-                      Discover the world through my lens.<span> </span>
+                      Descubre el mundo a través de mi lente.<span> </span>
                       <br />
-                      Take a look at my collections and be captivated<span> </span>
+                      Echa un vistazo a mis colecciones y cautívate<span> </span>
                       <br />
-                      by the beauty captured in each image!
+                      por la belleza capturada en cada imagen!
                     </p>
 
                     <div className="btn-wrap">
@@ -123,7 +123,7 @@ const HomeSlider = () => {
 
                         <div className="ms-btn--label">
                           <div className="ms-btn__text">
-                            See my works
+                            Ver mis sesiones
                             </div>
                           <div className="ms-btn__border"></div>
                         </div>
@@ -137,23 +137,23 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={aboutMeTemporalImage} alt="About Me" />
+                <Image src={aboutMeTemporalImage} alt="Sobre mi" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
-                      <p className="tag">Find out more</p>
+                      <p className="tag">Descubre más</p>
                       <Link
                         href="/aboutMe"
                         className="title"
                       >
-                        ABOUT ME
+                        SOBRE MI
                       </Link>
                     </div>
                     <p className="disc">
-                      Discover my career, my inspiration and<span> </span>
+                      Descubre mi carrera, mi inspiración y<span> </span>
                       <br />
-                      how my passion for photography is<span> </span>
+                      cómo mi pasión por la fotografía es<span> </span>
                       <br />
-                      reflected in every image I capture.
+                      reflejada en cada imagen que capturo.
                     </p>
 
                     <div className="btn-wrap">
@@ -178,7 +178,7 @@ const HomeSlider = () => {
                         </div>
 
                         <div className="ms-btn--label">
-                            <div className="ms-btn__text">Read About Me</div>
+                            <div className="ms-btn__text">Leer Sobre mi</div>
                             <div className="ms-btn__border"></div>
                         </div>
                       </Link>
@@ -191,21 +191,21 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={whyChooseUsTemporalImage} alt="Why choose us?" />
+                <Image src={whyChooseUsTemporalImage} alt="¿Por qué elegirnos?" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
-                      <p className="tag">Why</p>
+                      <p className="tag">¿Por qué</p>
                       <Link
                         href="/whyChooseUs"
                         className="title"
                       >
-                        CHOOSE US?
+                       ELEGIRNOS?
                       </Link>
                     </div>
                     <p className="disc">
-                      Authentic testimonials, collaborations with <span> </span>
+                      Testimonios auténticos y una amplia<span> </span>
                       <br />
-                      Malaga brands and a wide range of specialized services.<span> </span>
+                      gama de servicios especializados.<span> </span>
                     </p>
 
                     <div className="btn-wrap">
@@ -230,8 +230,8 @@ const HomeSlider = () => {
                         </div>
 
                         <div className="ms-btn--label">
-                            <div className="ms-btn__text">Help yourself to decide!</div>
-                            <div className="ms-btn__border"></div>
+                          <div className="ms-btn__text">Investiga la sección</div>
+                          <div className="ms-btn__border"></div>
                         </div>
                       </Link>
                   </div>
@@ -246,7 +246,7 @@ const HomeSlider = () => {
                 <Image src={faqTemporalImage} alt="FAQ" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
-                      <p className="tag">Do you have any questions?</p>
+                      <p className="tag">¿Tienes alguna pregunta?</p>
                       <Link
                         href="/faq"
                         className="title"
@@ -255,11 +255,9 @@ const HomeSlider = () => {
                       </Link>
                     </div>
                     <p className="disc">
-                      If you have questions about my<span> </span>
+                      Si tienes dudas sobre mis servicios de <span> </span>
                       <br />
-                      photography services, I am here to help!<span> </span>
-                      <br />
-                      Tell me what you are worried about.
+                      fotografía, ¡estoy aquí para ayudarte!<span> </span>
                     </p>
 
                     <div className="btn-wrap">
@@ -284,7 +282,7 @@ const HomeSlider = () => {
                         </div>
 
                         <div className="ms-btn--label">
-                            <div className="ms-btn__text">Clear your doubts!</div>
+                            <div className="ms-btn__text">¡ Aclara tus dudas! </div>
                             <div className="ms-btn__border"></div>
                         </div>
                       </Link>
@@ -297,22 +295,22 @@ const HomeSlider = () => {
             <SwiperSlide className="swiper-slide">
               <div className="slider-inner" data-swiper-parallax="100">
 
-                <Image src={contactTemporalImage} alt="Contact" />
+                <Image src={contactTemporalImage} alt="Contacto" />
                   <div className="swiper-content" data-swiper-parallax="2000">
                     <div className="title-area">
                       <Link
                         href="/contact"
                         className="title"
                       >
-                        Contact
+                        Contacto
                       </Link>
                     </div>
                     <p className="disc">
-                      Ready to capture your special moments?<span> </span>
+                      ¿Preparado para capturar tus momentos especiales?<span> </span>
                       <br />
-                      I am here to answer your questions, discuss your ideas<span> </span>
+                      ¡ Estoy aquí para responder tus preguntas, desarrollar <span> </span>
                       <br />
-                      and design the perfect photo shoot together!
+                      tus ideas y diseñar la sesión de fotografía perfecta juntos !
                     </p>
 
                     <div className="btn-wrap">
@@ -337,7 +335,7 @@ const HomeSlider = () => {
                         </div>
 
                         <div className="ms-btn--label">
-                            <div className="ms-btn__text">Send me a message!</div>
+                            <div className="ms-btn__text">¡ Envíame un mensaje !</div>
                             <div className="ms-btn__border"></div>
                         </div>
                       </Link>

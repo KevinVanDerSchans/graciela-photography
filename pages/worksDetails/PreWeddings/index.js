@@ -37,11 +37,11 @@ function PreWeddings() {
                 <div className="row top">
 
                   <div className="col-lg-6">
-                    <h1 className="heading-title">Pre-weddings</h1>
+                    <h1 className="heading-title">Pre-bodas</h1>
                   </div>
 
                   <div className="col-lg-6">
-                    <p className="desc">Each image is a testimony to the love, complicity and joy shared by the couple, creating memories that will last a lifetime.</p>
+                    <p className="desc">Cada fotografía es un testimonio del amor, la complicidad y la alegría compartidos por la pareja, creando recuerdos que durarán toda la vida.</p>
                   </div>
                 </div>
 
@@ -84,7 +84,7 @@ function PreWeddings() {
 
                       <PhotoAlbum
                         photos={preWeddingsImages}
-                        alt="Pre-weddings collection"
+                        alt="Pre-bodas colección"
                         targetRowHeight={350}
                         layout="rows"
 
@@ -96,7 +96,7 @@ function PreWeddings() {
 
                       <Lightbox
                         slides={preWeddingsImages}
-                        alt="Pre-weddings collection"
+                        alt="Pre-bodas colección"
 
                         open={index >= 0}
                         index={index}
@@ -135,16 +135,16 @@ function PreWeddings() {
                           <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"></path>
                         </g>
                       </svg>
-                      <h3>Next Project</h3>
+                      <h3>Siguiente sesión</h3>
                     </div>
 
-                    <h1>Weddings</h1>
+                    <h1>Bodas</h1>
                   </Link>
                 </div>
 
                 <div className="col-md-6">
                   <Link href="/works/weddings" className="ms-spn--thumb">
-                    <Image src="/images/collection/weddings.jpg" alt="Weddings collection" width={800} height={600} />
+                    <Image src="/images/collection/weddings.jpg" alt="Bodas colección" width={800} height={600} />
                   </Link>
                 </div>
               </div>

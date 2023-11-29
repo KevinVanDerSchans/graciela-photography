@@ -37,11 +37,11 @@ function Weddings() {
                 <div className="row top">
 
                   <div className="col-lg-6">
-                    <h1 className="heading-title">Weddings</h1>
+                    <h1 className="heading-title">Bodas</h1>
                   </div>
 
                   <div className="col-lg-6">
-                    <p className="desc">Immerse yourself in the charm and emotion of one of the most special days in a couple&apos;s life through our wedding photography section.</p>
+                    <p className="desc">Sumérgete en el encanto y la emoción de uno de los días más especiales en la vida de una pareja.</p>
                   </div>
                 </div>
 
@@ -84,7 +84,7 @@ function Weddings() {
 
                       <PhotoAlbum
                         photos={weddingsImages}
-                        alt="Weddings collection"
+                        alt="Bodas colección"
                         targetRowHeight={350}
                         layout="rows"
 
@@ -96,7 +96,7 @@ function Weddings() {
 
                       <Lightbox
                         slides={weddingsImages}
-                        alt="Weddings collection"
+                        alt="Bodas colección"
 
                         open={index >= 0}
                         index={index}
@@ -135,16 +135,16 @@ function Weddings() {
                           <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"></path>
                         </g>
                       </svg>
-                      <h3>Next Project</h3>
+                      <h3>Siguiente sesión</h3>
                     </div>
 
-                    <h1>Pregnant</h1>
+                    <h1>Embarazo</h1>
                   </Link>
                 </div>
 
                 <div className="col-md-6">
                   <Link href="/works/pregnant" className="ms-spn--thumb">
-                    <Image src="/images/collection/pregnant.jpg" alt="Pregnant collection" width={800} height={600} />
+                    <Image src="/images/collection/pregnant.jpg" alt="Embarazo colección" width={800} height={600} />
                   </Link>
                 </div>
               </div>

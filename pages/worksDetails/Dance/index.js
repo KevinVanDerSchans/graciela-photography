@@ -37,11 +37,11 @@ function Dance() {
                 <div className="row top">
 
                   <div className="col-lg-6">
-                    <h1 className="heading-title">Dance</h1>
+                    <h1 className="heading-title">Danza</h1>
                   </div>
 
                   <div className="col-lg-6">
-                    <p className="desc">Each image is a reflection of the harmony between body and music, capturing magical moments in dance. Immerse yourself in the world of artistic expression and movement through our dance photography section.</p>
+                    <p className="desc">Cada imagen es un reflejo de la armonía entre el cuerpo y la música, capturando momentos mágicos de la danza. Sumérgete en el mundo de la expresión artística.</p>
                   </div>
                 </div>
 
@@ -84,7 +84,7 @@ function Dance() {
 
                       <PhotoAlbum
                         photos={danceImages}
-                        alt="Dance collection"
+                        alt="Danza colección"
                         targetRowHeight={350}
                         layout="rows"
 
@@ -93,10 +93,9 @@ function Dance() {
                           setIndex(index)}
                       />
 
-
                       <Lightbox
                         slides={danceImages}
-                        alt="Dance collection"
+                        alt="Danza colección"
 
                         open={index >= 0}
                         index={index}
@@ -135,16 +134,16 @@ function Dance() {
                           <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"></path>
                         </g>
                       </svg>
-                      <h3>Next Project</h3>
+                      <h3>Siguiente sesión</h3>
                     </div>
 
-                    <h1>Personal Sessions</h1>
+                    <h1>Sesiones personales</h1>
                   </Link>
                 </div>
 
                 <div className="col-md-6">
                   <Link href="/works/personal-sessions" className="ms-spn--thumb">
-                    <Image src="/images/collection/personal-sessions.jpg" alt="Personal sessions collection" width={800} height={600} />
+                    <Image src="/images/collection/personal-sessions.jpg" alt="Sesiones personales colección" width={800} height={600} />
                   </Link>
                 </div>
               </div>

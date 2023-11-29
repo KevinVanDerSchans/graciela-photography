@@ -20,11 +20,11 @@ const Collection = () => {
 
                       <Link href="/works/personal-sessions" aria-label="Personal Sessions">
                         <div className="ms-p-content">
-                          <h3>Personal Sessions</h3>
+                          <h3>Sesiones personales</h3>
                         </div>
 
                         <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                          <Image decoding="async" src="/images/collection/personal-sessions.jpg" alt="Personal Sessions" width={800} height={600} />
+                          <Image decoding="async" src="/images/collection/personal-sessions.jpg" alt="Sesiones personales" width={800} height={600} />
                         </figure>
                       </Link>
                     </div>
@@ -52,11 +52,11 @@ const Collection = () => {
 
                       <Link href="/works/animals" aria-label="Animals">
                         <div className="ms-p-content">
-                          <h3>Animals</h3>
+                          <h3>Animales</h3>
                         </div>
 
                         <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                          <Image decoding="async" src="/images/collection/animals.jpg" alt="Animals" width={800} height={600} />
+                          <Image decoding="async" src="/images/collection/animals.jpg" alt="Animales" width={800} height={600} />
                         </figure>
                       </Link>
                     </div>
@@ -68,11 +68,11 @@ const Collection = () => {
 
                       <Link href="/works/pre-weddings" aria-label="Pre-weddings">
                         <div className="ms-p-content">
-                          <h3>Pre-weddings</h3>
+                          <h3>Pre-bodas</h3>
                         </div>
 
                         <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                          <Image decoding="async" src="/images/collection/pre-weddings.jpg" alt="Pre-weddings" width={800} height={600} />
+                          <Image decoding="async" src="/images/collection/pre-weddings.jpg" alt="Pre-bodas" width={800} height={600} />
                         </figure>
                       </Link>
                     </div>
@@ -84,11 +84,11 @@ const Collection = () => {
 
                       <Link href="/works/weddings" aria-label="Weddings">
                         <div className="ms-p-content">
-                          <h3>Weddings</h3>
+                          <h3>Bodas</h3>
                         </div>
 
                         <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                          <Image decoding="async" src="/images/collection/weddings.jpg" alt="Weddings" width={800} height={600} />
+                          <Image decoding="async" src="/images/collection/weddings.jpg" alt="Bodas" width={800} height={600} />
                         </figure>
                       </Link>
                     </div>
@@ -100,11 +100,11 @@ const Collection = () => {
 
                       <Link href="/works/pregnant" aria-label="Pregnant">
                         <div className="ms-p-content">
-                          <h3>Pregnant</h3>
+                          <h3>Embarazo</h3>
                         </div>
 
                         <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                          <Image decoding="async" src="/images/collection/pregnant.jpg" alt="Pregnant" width={800} height={600} />
+                          <Image decoding="async" src="/images/collection/pregnant.jpg" alt="Embarazo" width={800} height={600} />
                         </figure>
                       </Link>
                     </div>
@@ -116,11 +116,11 @@ const Collection = () => {
 
                       <Link href="/works/babies" aria-label="Babies">
                         <div className="ms-p-content">
-                          <h3>Babies</h3>
+                          <h3>Recién nacidos</h3>
                         </div>
 
                         <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                          <Image decoding="async" src="/images/collection/babies.jpg" alt="Babies" width={800} height={600} />
+                          <Image decoding="async" src="/images/collection/babies.jpg" alt="Recién nacidos" width={800} height={600} />
                         </figure>
                       </Link>
                     </div>
@@ -148,11 +148,11 @@ const Collection = () => {
 
                       <Link href="/works/dance" aria-label="Dance">
                         <div className="ms-p-content">
-                          <h3>Dance</h3>
+                          <h3>Danza</h3>
                         </div>
 
                         <figure className="ms-p-img media-wrapper media-wrapper--4:4">
-                          <Image decoding="async" src="/images/collection/dance.jpg" alt="Dance" width={800} height={600} />
+                          <Image decoding="async" src="/images/collection/dance.jpg" alt="Danza" width={800} height={600} />
                         </figure>
                       </Link>
                     </div>

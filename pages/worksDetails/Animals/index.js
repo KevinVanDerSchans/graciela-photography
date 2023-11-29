@@ -37,11 +37,11 @@ function Animals() {
                 <div className="row top">
 
                   <div className="col-lg-6">
-                    <h1 className="heading-title">Animals</h1>
+                    <h1 className="heading-title">Animales</h1>
                   </div>
 
                   <div className="col-lg-6">
-                    <p className="desc">Our animal photography section captures the majesty, tenderness and fascination that the living beings of the animal world inspire.</p>
+                    <p className="desc">Capturo la majestuosidad, ternura y fascinación que inspiran los seres vivos del mundo animal.</p>
                   </div>
                 </div>
 
@@ -84,7 +84,7 @@ function Animals() {
 
                       <PhotoAlbum
                         photos={animalsImages}
-                        alt="Animals collection"
+                        alt="Animales colección"
                         targetRowHeight={350}
                         layout="rows"
 
@@ -95,7 +95,7 @@ function Animals() {
 
                       <Lightbox
                         slides={animalsImages}
-                        alt="Animals collection"
+                        alt="Animales colección"
 
                         open={index >= 0}
                         index={index}
@@ -134,16 +134,16 @@ function Animals() {
                           <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"></path>
                         </g>
                       </svg>
-                      <h3>Next Project</h3>
+                      <h3>Siguiente sesión</h3>
                     </div>
 
-                    <h1>Pre-weddings</h1>
+                    <h1>Pre-bodas</h1>
                   </Link>
                 </div>
 
                 <div className="col-md-6">
                   <Link href="/works/pre-weddings" className="ms-spn--thumb">
-                    <Image src="/images/collection/pre-weddings.jpg" alt="Pre-weddings collection" width={800} height={600} />
+                    <Image src="/images/collection/pre-weddings.jpg" alt="Pre-bodas colección" width={800} height={600} />
                   </Link>
                 </div>
               </div>

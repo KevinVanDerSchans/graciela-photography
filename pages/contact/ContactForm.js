@@ -56,19 +56,19 @@ function ContactForm() {
         <form className="form" onSubmit={sendEmail} ref={form}>
           <div className="row">
             <div className="form-group col-6">
-              <input aria-required="true" aria-invalid="false" placeholder="Your name" type="text" name="name" required />
+              <input aria-required="true" aria-invalid="false" placeholder="Tu nombre" type="text" name="name" required />
             </div>
             <div className="form-group col-6">
-              <input aria-required="true" aria-invalid="false" placeholder="Your email" type="email" name="email" required />
+              <input aria-required="true" aria-invalid="false" placeholder="Tu email" type="email" name="email" required />
             </div>
             <div className="form-group col-12">
-              <input aria-invalid="false" placeholder="Title" type="text" name="subject" required />
+              <input aria-invalid="false" placeholder="Asunto" type="text" name="subject" required />
             </div>
             <div className="form-group col-12">
-              <textarea aria-invalid="false" placeholder="Message" name="message"></textarea>
+              <textarea aria-invalid="false" placeholder="Mensaje" name="message"></textarea>
             </div>
             <div className="ms-cf--bottom">
-              <input className="btn btn--primary" type="submit" value="Send" />
+              <input className="btn btn--primary" type="submit" value="Enviar" />
             </div>
           </div>
         </form>

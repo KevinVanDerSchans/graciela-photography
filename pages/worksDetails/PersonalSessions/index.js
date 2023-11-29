@@ -37,11 +37,11 @@ function PersonalSessions() {
                 <div className="row top">
 
                   <div className="col-lg-6">
-                    <h1 className="heading-title">Personal Sessions</h1>
+                    <h1 className="heading-title">Sesiones personales</h1>
                   </div>
 
                   <div className="col-lg-6">
-                    <p className="desc">Each session is a personalized experience that highlights the beauty and authenticity of our clients.</p>
+                    <p className="desc">Cada sesión es una experiencia personalizada que destaca la belleza y autenticidad de nuestros clientes.</p>
                   </div>
                 </div>
 
@@ -84,7 +84,7 @@ function PersonalSessions() {
 
                       <PhotoAlbum
                         photos={personalSessionsImages}
-                        alt="Personal sessions collection"
+                        alt="Sesiones personales colección"
                         targetRowHeight={350}
                         layout="rows"
 
@@ -96,7 +96,7 @@ function PersonalSessions() {
 
                       <Lightbox
                         slides={personalSessionsImages}
-                        alt="Personal sessions collection"
+                        alt="Sesiones personales colección"
 
                         open={index >= 0}
                         index={index}
@@ -135,7 +135,7 @@ function PersonalSessions() {
                           <path d="M22,9a1,1,0,0,0,0,1.42l4.6,4.6H3.06a1,1,0,1,0,0,2H26.58L22,21.59A1,1,0,0,0,22,23a1,1,0,0,0,1.41,0l6.36-6.36a.88.88,0,0,0,0-1.27L23.42,9A1,1,0,0,0,22,9Z"></path>
                         </g>
                       </svg>
-                      <h3>Next Project</h3>
+                      <h3>Siguiente sesión</h3>
                     </div>
 
                     <h1>Fitness</h1>
@@ -144,7 +144,7 @@ function PersonalSessions() {
 
                 <div className="col-md-6">
                   <Link href="/works/fitness" className="ms-spn--thumb">
-                    <Image src="/images/collection/fitness.jpg" alt="Fitness collection" width={800} height={600} />
+                    <Image src="/images/collection/fitness.jpg" alt="Fitness colección" width={800} height={600} />
                   </Link>
                 </div>
               </div>
