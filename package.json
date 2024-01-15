@@ -1,5 +1,6 @@
 {
-  "name": "gracielaphotography",
+  "name": "graciela-photography",
+  "description": "Graciela's photography is a responsive Web for a professional photographer. Built with Next.js, React, SCSS and JavaScript.",
   "version": "0.1.0",
   "private": true,
   "scripts": {

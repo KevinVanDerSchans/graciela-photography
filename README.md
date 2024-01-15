@@ -1,12 +1,12 @@
-# Graciela photography - Freelancer Frontend Developer
+# Graciela photography - Freelancer project
 
-## Kevin van der Schans Delgado
+## Frontend | Next.js / React / SCSS
 
 <br>
 
 <p align="center">
   <img
-    src="public/graciela-readme.png"
+    src="public/readme/graciela-readme.png"
     alt="Graciela photography"
     width="850"
   >
@@ -16,9 +16,8 @@
 
 **DEPLOY**:
 <br>
-https://graciela-photography.vercel.app/
+https://graciela-photography.vercel.app
 
-<br>
 <br>
 
 # Index
@@ -40,7 +39,6 @@ https://graciela-photography.vercel.app/
 1. [Project developer](#project-developer)
 
 <br>
-<br>
 
 ## Description and functionalities
 
@@ -51,8 +49,6 @@ Graciela's photography is a **responsive** website for a professional photograph
 - **Home**
 
 A **hero slider** with 6 slides gives users a preview and demonstration of the main content available on the page.
-
-<br>
 
 - **Works**
 
@@ -72,8 +68,6 @@ When users click on any photo within a collection, it opens in a *Lightbox* view
 <br>
 • Full-screen mode.
 
-<br>
-
 - **About Me**
 
 Explore **Graciela's portfolio**, which features a brief personal description, her background, the services she offers and a component guiding users to explore the **Works** section.
@@ -84,27 +78,15 @@ Explore **Graciela's portfolio**, which features a brief personal description, h
 
 This section is dedicated to persuading potential customers. It includes details about the services offered, real customer reviews/testimonials, and once again, a component guiding users to the **Works** section.
 
-<br>
-
 - **FAQ**
 
 This section compiles commonly asked questions and their corresponding answers, aiming to streamline and simplify interactions for the photographer.
 <br>
 If clients still have additional questions, a **Contact** form is available at the end of the section.
 
-<br>
-
 - **Contact**
 
 A contact form is provided for direct communication with the client. Additionally, the photographer's contact information and a map with the location are included.
-
-<br>
-<br>
-
-In addition, the website offers the following functionalities:
-
-<br>
-
 
 - **Theme Switch (Light/Dark)**
 
@@ -115,19 +97,23 @@ The navbar features an icon allowing users to switch between light and dark them
 
 ## Technologies and Tools used
 
-- Next.js
-- React
-- TypeScript
-- JavaScript
-- Sass
-- Bootstrap
-- HTML5 / CSS3
-
-<br>
-
-- Lighthouse
-- sweetalert2
-- Vercel
+<div align="center">
+  <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="public/readme/next.svg" alt="Next.js" width="60" height="60" style="margin-right: 24px" /> </a>
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="60" height="60" style="margin-right: 24px"/></a>
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="60" height="60" style="margin-right: 24px" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="60" height="60" style="margin-right: 24px" /></a>
+  <br>
+  <br>
+  <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="sass" width="60" height="60" style="margin-right: 24px" /> </a>
+  <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"> <img src="public/readme/bootstrap.svg" alt="bootstrap" width="60" height="60" style="margin-right: 24px" /></a>
+  <a href="https://html.spec.whatwg.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="60" height="60" style="margin-right: 24px" /></a>
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="60" height="60" style="margin-right: 24px" /></a>
+  <br>
+  <br>
+  <a href="https://developer.chrome.com/docs/lighthouse/overview/" target="_blank" rel="noreferrer"> <img src="public/readme/lighthouse.svg" alt="lighthouse" width="60" height="60" style="margin-right: 24px" /></a>
+  <a href="https://sweetalert2.github.io/" target="_blank" rel="noreferrer"> <img src="public/readme/sweetalert2.png" alt="sweetalert2" width="95" height="60" style="margin-right: 24px" /></a>
+  <a href="https://vercel.com/" target="_blank" rel="noreferrer"> <img src="public/readme/vercel.svg" alt="vercel" width="60" height="60" style="margin-right: 24px" /></a>
+</div>
 
 <br>
 <br>
@@ -136,7 +122,7 @@ The navbar features an icon allowing users to switch between light and dark them
 
 <p align="center">
   <img
-    src="public/lighthouse-results.png"
+    src="public/readme/lighthouse-results.png"
     alt="Lighthouse results"
     width="850"
   >
